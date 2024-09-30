@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "enderman"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "company:quests/judge/1104_"
+    }
+  }
+  

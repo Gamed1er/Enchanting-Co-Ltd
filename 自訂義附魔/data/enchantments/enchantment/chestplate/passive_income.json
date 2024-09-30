@@ -1,0 +1,54 @@
+{
+    "description": {
+      "text": "被動式收入",
+      "color": "dark_purple",
+      "bold": true
+    },
+    "supported_items": "#minecraft:chest_armor",
+    "weight": 1,
+    "max_level": 5,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 8,
+    "slots": [
+      "armor"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "enchantments:chestplate/passive_income"
+          },
+          "requirements": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 0,
+                "max": 10
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": {
+                "type": "minecraft:enchantment_level",
+                "amount": {
+                  "type": "minecraft:linear",
+                  "base": 0.4,
+                  "per_level_above_first": 0.15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

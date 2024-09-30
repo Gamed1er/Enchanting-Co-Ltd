@@ -1,0 +1,44 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.fire_aspect",
+    "color": "blue"
+  },
+  "supported_items": "#minecraft:enchantable/fire_aspect",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 2,
+  "max_level": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 4
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      }
+    ]
+  }
+}

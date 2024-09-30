@@ -1,0 +1,46 @@
+{
+  "description": {
+    "text": "地核挖掘者",
+    "color": "green"
+  },
+  "supported_items": "#minecraft:pickaxes",
+  "primary_items": "#minecraft:pickaxes",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments:pickaxes/underground_miner"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": -64,
+                  "max": -48
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

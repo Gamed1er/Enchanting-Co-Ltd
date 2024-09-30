@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "#minecraft:swords",
+            "count": 1,
+            "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:sword/teleport",
+                "levels": 3
+              }
+            ]
+          }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "enchantments:sword/teleport3"
+    }
+  }
+  

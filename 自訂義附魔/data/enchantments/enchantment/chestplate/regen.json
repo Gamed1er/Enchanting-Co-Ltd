@@ -1,0 +1,39 @@
+{
+  "description": {
+    "text": "自癒",
+    "color": "blue"
+  },
+  "supported_items": "#minecraft:chest_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:regeneration",
+          "min_duration": 5,
+          "max_duration": 5,
+          "min_amplifier": 2,
+          "max_amplifier": 2
+        },
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.005
+        }
+      }
+    ]
+  }
+}

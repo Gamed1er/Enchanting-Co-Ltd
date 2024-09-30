@@ -1,0 +1,2 @@
+tellraw @s[scores = { Hint = 1 }] ["",{"text":"【野獸先輩】","bold":true,"color":"dark_red"},{"text":"哼 哼 哼，呀呀呀啊啊啊啊 ~","color":"gray"},"\n",{"text":"〔獎勵〕 ","color":"gray"},{"text":"隱藏附魔 :【野獸後輩】","bold":true,"color":"light_purple"}]
+give @s enchanted_book[stored_enchantments={levels:{"enchantments:easter_egg/beaststancestor":1}}] 1

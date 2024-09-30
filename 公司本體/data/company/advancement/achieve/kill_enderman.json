@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "title": "終界使者殺手",
+      "description": [
+        {
+          "text": "擊殺 1000 隻 終界使者\n",
+          "color": "gray"
+        },
+        {
+          "text": "解鎖 【傳送】",
+          "color": "gold",
+          "bold": true
+        }
+      ],
+      "background": "minecraft:textures/block/white_concrete.png",
+      "frame": "challenge"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+  "parent": "company:achieve/root" 
+}

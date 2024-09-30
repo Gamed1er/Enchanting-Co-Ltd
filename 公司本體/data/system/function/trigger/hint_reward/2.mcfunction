@@ -1,0 +1,2 @@
+tellraw @s[scores = { Hint = 1 }] ["",{"text":"【蔡徐坤】","bold":true,"color":"#EDEDED"},{"text":"迎面走來的你讓我如此蠢蠢欲動 !","color":"gray"},"\n",{"text":"〔獎勵〕 ","color":"gray"},{"text":"隱藏附魔 :【真愛坤】","bold":true,"color":"light_purple"}]
+give @s enchanted_book[stored_enchantments={levels:{"enchantments:easter_egg/kunkun":1}}] 1

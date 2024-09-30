@@ -1,0 +1,32 @@
+{
+    "description": {
+      "text": "無毒秘錄",
+      "color": "blue"
+    },
+    "supported_items": "minecraft:totem_of_undying",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 5,
+    "slots": [
+      "offhand"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "enchantments:totem_of_undying/antidote"
+          }
+        }
+      ]
+    }
+  }
+  

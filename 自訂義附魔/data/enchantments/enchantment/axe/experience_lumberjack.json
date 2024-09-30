@@ -1,0 +1,49 @@
+{
+  "description": {
+    "text": "經驗伐木工",
+    "color": "green"
+  },
+  "supported_items": "#minecraft:axes",
+  "primary_items": "#minecraft:axes",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [],
+    "minecraft:block_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 10,
+            "per_level_above_first": 5
+          }
+        }
+      }
+    ],
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ]
+  }
+}

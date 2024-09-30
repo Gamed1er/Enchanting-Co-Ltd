@@ -1,0 +1,2 @@
+tellraw @s[scores = { Hint = 1 }] ["",{"text":"【傑哥】","bold":true,"color":"#EDEDED"},{"text":"身材不錯嘛 ! 讓我看看 !","color":"gray"},"\n",{"text":"〔獎勵〕 ","color":"gray"},{"text":"隱藏附魔 :【真愛坤】","bold":true,"color":"light_purple"}]
+give @s enchanted_book[stored_enchantments={levels:{"enchantments:easter_egg/jaygao":1}}] 1

@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"公司已經建造完畢，歡迎來到","color":"gray"},{"text":"附魔有限股份公司","bold":true,"color":"light_purple"},{"text":"","color":"gray"}]

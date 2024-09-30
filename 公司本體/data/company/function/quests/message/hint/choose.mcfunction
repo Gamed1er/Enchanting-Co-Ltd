@@ -1,0 +1,1 @@
+$function company:quests/message/hint/$(Quest1)

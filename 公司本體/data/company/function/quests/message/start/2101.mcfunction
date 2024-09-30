@@ -1,0 +1,1 @@
+tellraw @p ["",{"text":"【任務系統】","bold":true,"color":"dark_blue"},{"text":"任務開始 !","color":"gray"},"\n",{"text":"任務內容  :  在","color":"gray"},{"text":" 白天 ","bold":true,"color":"yellow"},{"text":"時擊殺","color":"gray"},{"text":" 12 ","bold":true,"color":"yellow"},{"text":"隻苦力怕","color":"gray"}]

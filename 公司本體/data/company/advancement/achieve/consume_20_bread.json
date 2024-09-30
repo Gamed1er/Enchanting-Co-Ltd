@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": "和平、土地、麵包 !  (I)",
+    "description": [
+      {
+        "text": "食用 20 個麵包\n",
+        "color": "gray"
+      },
+      {
+        "text": "獲得【耐久 IV】附魔書 1 本",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "background": "minecraft:textures/block/white_concrete.png",
+    "frame": "task"
+  },
+  "parent": "company:achieve/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

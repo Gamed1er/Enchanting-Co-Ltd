@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"漁上千里 : ","bold":true,"color":"gray"},{"score":{"name":"@s","objective":"EnchantmentsQuickFishing"},"bold":true,"color":"dark_aqua"},{"text":" / 20  ","bold":true,"color":"dark_aqua"},{"text":"層","bold":true,"color":"gray"}]

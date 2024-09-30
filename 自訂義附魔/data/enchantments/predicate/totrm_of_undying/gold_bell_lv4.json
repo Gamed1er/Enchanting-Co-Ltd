@@ -1,0 +1,23 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": "minecraft:totem_of_undying",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:totem_of_undying/gold_bell",
+                "levels": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,43 @@
+{
+    "description": {
+    "text": "登大人",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+    "supported_items": "#minecraft:breaks_decorated_pots",
+    "primary_items": "#minecraft:breaks_decorated_pots",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": ["mainhand"],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "enchantments:playsound/jaygao"
+          }
+        }
+      ],
+      "minecraft:attributes": [
+        {
+          "id": "50278",
+          "attribute": "minecraft:generic.scale",
+          "amount": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    }
+  }
+  

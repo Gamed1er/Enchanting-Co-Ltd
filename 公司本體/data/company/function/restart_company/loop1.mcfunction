@@ -1,0 +1,1 @@
+execute as @e[tag = company_center, type = marker] at @s run function company:restart_company/loop

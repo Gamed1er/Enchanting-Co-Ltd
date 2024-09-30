@@ -1,0 +1,5 @@
+
+
+execute if score @s BankTrigger matches 1 run tellraw @p ["",{"text":"【銀行】","bold":true,"color":"dark_green","hoverEvent":{"action":"show_text","contents":[{"text":"這是附魔股份有限公司的任務系統","color":"gray"},"\n",{"text":"可以消耗","color":"gray"},{"text":"經驗值","bold":true,"color":"dark_aqua"},{"text":"來接取任務","color":"gray"},"\n",{"text":"經驗值需求會隨著任務次數累加","color":"gray"},"\n",{"text":"每 20 分鐘重製一次","color":"gray"}]}},{"text":"這裡是存取青金石的地方","color":"gray"},"\n","\n",{"text":"當前青金石數目 : ","bold":true,"color":"gray"},{"score":{"name":"@s","objective":"BankLapisCount"},"color":"green"},"\n",{"text":"【提領青金石指令】 /trigger BankUseTrigger set","bold":true,"color":"gray","clickEvent":{"action":"copy_to_clipboard","value":"/trigger BankUseTrigger set "},"hoverEvent":{"action":"show_text","contents":[{"text":"點擊可以複製指令","color":"gray"},"\n",{"text":"後面 set 可以填入想要存放的金額","color":"gray"},"\n",{"text":"正數是提取、負數是存錢","color":"gray"}]}},"\n"]
+
+scoreboard players set @s BankTrigger 0

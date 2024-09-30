@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"【任務系統】","bold":true,"color":"dark_blue"},{"text":"任務開始 !","color":"gray"},"\n",{"text":"任務內容  :  製作","color":"gray"},{"text":" 12 個 ","bold":true,"color":"yellow"},{"text":"麵包","color":"gray"}]

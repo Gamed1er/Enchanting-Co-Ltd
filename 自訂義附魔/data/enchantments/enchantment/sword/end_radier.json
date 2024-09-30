@@ -1,0 +1,49 @@
+{
+  "description": {
+    "text": "終界剋星",
+    "color": "blue"
+  },
+  "exclusive_set": ["minecraft:smite","depth_strider"],
+  "supported_items": "#minecraft:swords",
+  "primary_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 1.2,
+            "per_level_above_first": 0.2
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": [
+              "minecraft:ender_dragon",
+              "minecraft:enderman",
+              "minecraft:endermite",
+              "minecraft:shulker"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

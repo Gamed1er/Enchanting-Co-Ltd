@@ -1,0 +1,31 @@
+{
+    "description": {
+      "text": "經驗吸塵器",
+      "color": "dark_purple",
+      "bold": true
+    },
+    "supported_items": "#enchantments:tools",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 8,
+    "slots": ["mainhand"],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "enchantments:universal/exp_absorb"
+          }
+        }
+      ]
+    }
+  }
+  

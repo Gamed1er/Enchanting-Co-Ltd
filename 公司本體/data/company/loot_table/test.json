@@ -1,0 +1,145 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:channeling": {
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:unbreaking": {
+                    "min": 0,
+                    "max": 2
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:efficiency": {
+                    "min": 0,
+                    "max": 2
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:channeling": {
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:unbreaking": {
+                    "min": 0,
+                    "max": 2
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:efficiency": {
+                    "min": 0,
+                    "max": 2
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:channeling": {
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:unbreaking": {
+                    "min": 0,
+                    "max": 2
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:efficiency": {
+                    "min": 0,
+                    "max": 2
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

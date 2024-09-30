@@ -1,0 +1,37 @@
+{
+    "description": {
+      "text": "快速打擊",
+      "color": "dark_purple",
+      "bold": true
+    },
+    "supported_items": "#enchantments:tools",
+    "weight": 1,
+    "max_level": 8,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 8,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "9590490",
+          "attribute": "minecraft:generic.attack_speed",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.12,
+            "per_level_above_first": 0.04
+          },
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+  

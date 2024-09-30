@@ -1,0 +1,1 @@
+tellraw @s[scores = { Hint = 1 }] ["",{"text":"【系統】","bold":true,"color":"dark_red"},{"text":"無效的兌換代碼，可能是因為你已經兌換過，或著兌換時間已到","color":"gray"}]

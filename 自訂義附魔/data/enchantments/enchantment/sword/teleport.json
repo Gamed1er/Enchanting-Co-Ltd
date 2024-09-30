@@ -1,0 +1,32 @@
+{
+  "description": {
+    "text": "傳送",
+    "color": "gold",
+    "bold": true
+  },
+  "supported_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 12,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments:sword/teleport"
+        }
+      }
+    ]
+  }
+}

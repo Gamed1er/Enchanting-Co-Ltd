@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"【任務系統】","bold":true,"color":"dark_blue"},{"text":"任務進度 : 在白天時擊殺","color":"gray"},{"score":{"name":"@s","objective":"QuestJudgmental"},"bold":true,"color":"dark_aqua"},{"text":" / 12 個 ","bold":true,"color":"dark_aqua"},{"text":"苦力怕","color":"gray"}]

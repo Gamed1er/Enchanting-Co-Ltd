@@ -1,0 +1,8 @@
+summon husk ^ ^ ^ {Glowing:1b,CustomNameVisible:1b,Health:250f,Tags:["boss","bread_master", "boss_unset"],CustomName:'{"bold":true,"color":"#FFB508","text":"麵包大俠"}',HandItems:[{id:"minecraft:bread",count:1,components:{"minecraft:custom_model_data":1,"minecraft:enchantments":{levels:{"enchantments:other/legendary_bread":1}}}},{}],HandDropChances:[1.000F,0.085F],ArmorItems:[{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":16755200}},{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":16755200}},{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":16755200}},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{name:"BedHeadBread"}}}],ArmorDropChances:[0.085F,0.085F,0.000F,0.000F],attributes:[{id:"minecraft:generic.armor",base:5},{id:"minecraft:generic.armor_toughness",base:16},{id:"minecraft:generic.attack_damage",base:4},{id:"minecraft:generic.attack_knockback",base:1},{id:"minecraft:generic.follow_range",base:100},{id:"minecraft:generic.max_health",base:250},{id:"minecraft:generic.movement_speed",base:0.22},{id:"generic.knockback_resistance", base:2},{id:"minecraft:generic.scale",base:1.2},{id:"minecraft:generic.attack_knockback",base:0.5}]}
+
+scoreboard players set @e[tag = boss_unset] BossSkillCoolDown1 600
+scoreboard players set @e[tag = boss_unset] BossSkillCoolDown2 180
+
+tag @e[tag = boss_unset] remove boss_unset
+
+tellraw @a[distance = ..32] ["",{"text":"【麵包大俠】","color":"gold"},{"text":"召喚我之人阿，了解一下","bold":true,"color":"gray"},{"text":"法國麵包","bold":true,"color":"red"},{"text":"之威力吧 !","bold":true,"color":"gray"}]

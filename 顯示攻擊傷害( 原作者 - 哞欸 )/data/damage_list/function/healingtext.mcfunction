@@ -1,0 +1,1 @@
+$summon minecraft:text_display ^ ^1 ^1 {"text":'["",{"text":"❤","color":"green"},{"text":"$(hpmath)","color":"green"}]',background:0,billboard:center,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f], translation:[0.0f,0.2f,0.0f], right_rotation:[0.0f,0.0f,0.0f,1.0f], scale: [1.0f,1.0f,1.0f]},see_through:true,Tags:["hurttext"]}

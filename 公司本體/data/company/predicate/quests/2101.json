@@ -1,0 +1,18 @@
+[
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "QuestID": 2101
+      }
+    },
+    {
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 0,
+        "max": 13000
+      },
+      "period": 24000
+    }
+  ]
+  

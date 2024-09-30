@@ -1,0 +1,70 @@
+{
+  "description": {
+    "text": "鉤鉤有魚上",
+    "color": "blue"
+  },
+  "exclusive_set": "minecraft:lure",
+  "supported_items": "minecraft:fishing_rod",
+  "primary_items": "minecraft:fishing_rod",
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:fishing_time_reduction": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 12,
+            "per_level_above_first": 4
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "QuickFishing": {
+              "min": 1
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": -20
+        },
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "QuickFishing": {
+              "max": 0
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments:fishing_rod/quick_fishing"
+        }
+      }
+    ]
+  }
+}

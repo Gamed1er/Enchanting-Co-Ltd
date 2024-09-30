@@ -1,0 +1,22 @@
+{
+  "description": {
+    "text": "蘋果愛好者",
+    "color": "green"
+  },
+  "supported_items": "#minecraft:axes",
+  "primary_items": "#minecraft:axes",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ]
+}

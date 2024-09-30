@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"【任務系統】","bold":true,"color":"dark_blue"},{"text":"任務進度 : 挖掘 ","color":"gray"},{"score":{"name":"@s","objective":"QuestJudgmental"},"color":"dark_aqua","bold": true},{"text":" / 64 個 ","bold":true,"color":"dark_aqua"},{"text":"橡木原木 or 樺木原木","color":"gray"}]

@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"【任務系統】","bold":true,"color":"dark_blue"},{"text":"任務開始 !","color":"gray"},"\n",{"text":"任務內容  :  擊殺","color":"gray"},{"text":" 5 隻 ","bold":true,"color":"yellow"},{"text":"終界使者","color":"gray"}]
