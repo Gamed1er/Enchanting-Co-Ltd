@@ -1,7 +1,7 @@
 {
   "description": {
     "text": "經驗礦工",
-    "color": "green"
+    "color": "dark_purple"
   },
   "supported_items": "#minecraft:pickaxes",
   "primary_items": "#minecraft:pickaxes",
@@ -15,7 +15,7 @@
     "base": 0,
     "per_level_above_first": 0
   },
-  "anvil_cost": 2,
+  "anvil_cost": 8,
   "slots": [
     "mainhand"
   ],
