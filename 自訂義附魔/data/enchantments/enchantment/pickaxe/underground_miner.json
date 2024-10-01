@@ -24,7 +24,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "enchantments:pickaxes/underground_miner"
+          "function": "enchantments:pickaxe/underground_miner"
         },
         "requirements": {
           "condition": "minecraft:entity_properties",

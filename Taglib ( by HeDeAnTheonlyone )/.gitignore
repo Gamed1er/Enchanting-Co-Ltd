@@ -1,0 +1,7 @@
+.vscode
+.VSCodeCounter
+*.zip
+*.pdb
+*.obj
+*.o
+tag_dereferencer/
