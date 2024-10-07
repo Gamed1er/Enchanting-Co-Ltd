@@ -19,5 +19,3 @@ execute unless score @s EnchantmentsTeleportEnderEnergy matches 3.. unless score
 execute if score @s EnchantmentsTeleportEnderEnergy matches 3.. unless score @s EnchantmentsTeleportCoolDown matches 1.. at @s run playsound entity.enderman.teleport master @s
 execute unless score @s EnchantmentsTeleportCoolDown matches 1.. run scoreboard players set @s EnchantmentsTeleportCoolDown 44
 advancement revoke @a only enchantments:teleport1
-
-give @a iron_sword[custom_model_data = 4] 1

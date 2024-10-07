@@ -4,11 +4,15 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "items": "#minecraft:swords",
+          "items": "#enchantments:weapons",
           "predicates": {
             "minecraft:enchantments": [
               {
-                "enchantments": "enchantments:sword/teleport"
+                "enchantments": "enchantments:universal/vampire",
+                "levels": {
+                  "max": 100,
+                  "min": 5
+                }
               }
             ]
           }

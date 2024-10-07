@@ -1,22 +1,19 @@
 {
   "pools": [
     {
-      "rolls": {
-        "min": 2,
-        "max": 3
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 15,
+          "weight": 33,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:efficiency": {
-                  "min": 3,
-                  "max": 6
+                "minecraft:fortune": {
+                  "min": 1,
+                  "max": 2
                 }
               }
             }
@@ -25,25 +22,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 5,
+          "weight": 33,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "enchantments:fishing_rod/lava_fisher": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "enchantments:fishing_rod/quick_fishing": {
+                "enchantments:axe/experience_lumberjack": {
                   "min": 1,
                   "max": 3
                 }
@@ -53,13 +37,29 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
+          "name": "minecraft:book",
+          "weight": 33,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "enchantments:pickaxe/experience_miner": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "enchantments:other/legendary_bread": 1
+                "mending": 1
               }
             }
           ]

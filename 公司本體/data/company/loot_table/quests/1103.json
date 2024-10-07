@@ -1,15 +1,12 @@
 {
   "pools": [
     {
-      "rolls": {
-        "min": 2,
-        "max": 3
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 10,
+          "weight": 33,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -17,10 +14,6 @@
                 "minecraft:smite": {
                   "min": 1,
                   "max": 3
-                },
-                "minecraft:unbreaking": {
-                  "min": 1,
-                  "max": 2
                 }
               }
             }
@@ -29,23 +22,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "enchantments:sword/day_radier": {
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 5,
+          "weight": 33,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -61,7 +38,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 3,
+          "weight": 33,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -77,15 +54,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "enchantments:sword/sunny_radier": {
-                  "min": 1,
-                  "max": 3
-                }
+                "mending": 1
               }
             }
           ]

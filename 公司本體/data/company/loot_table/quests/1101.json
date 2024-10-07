@@ -1,15 +1,12 @@
 {
   "pools": [
     {
-      "rolls": {
-        "min": 2,
-        "max": 3
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 15,
+          "weight": 33,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -17,10 +14,6 @@
                 "minecraft:efficiency": {
                   "min": 1,
                   "max": 3
-                },
-                "minecraft:unbreaking": {
-                  "min": 1,
-                  "max": 2
                 }
               }
             }
@@ -29,14 +22,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 10,
+          "weight": 33,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "enchantments:pickaxes/underground_miner": {
+                "enchantments:pickaxe/underground_miner": {
                   "min": 1,
-                  "max": 2
+                  "max": 3
                 }
               }
             }
@@ -45,15 +38,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 10,
+          "weight": 33,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "enchantments:pickaxes/experience_miner": {
-                  "min": 1,
-                  "max": 2
-                }
+                "enchantments:pickaxe/experience_miner": 1
               }
             }
           ]
@@ -61,25 +51,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "enchantments:stone_shield": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "enchantments:stone_stubborn": 1
+                "mending": 1
               }
             }
           ]

@@ -3,6 +3,6 @@ tellraw @s ["",{"text":"【任務系統】","bold":true,"color":"dark_blue"},{"t
 execute store result score Reward QuestTrigger run random value 0..1
 
 scoreboard players add @s BankLapisCount 200
-loot give @s loot company:quests/1103
+loot give @s loot company:quests/2101
 scoreboard players set @s QuestJudgmental 0
 scoreboard players set @s QuestID -1

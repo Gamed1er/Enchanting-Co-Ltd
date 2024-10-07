@@ -31,6 +31,7 @@ execute as @a run tellraw @s ["",{"text":"【附魔股份有限公司】","bold"
 
     #Bank
     scoreboard objectives add BankLapisCount dummy "玩家當前銀行青金石數量"
+    scoreboard objectives setdisplay list BankLapisCount
     scoreboard objectives add BankLevel dummy "玩家當前銀行等級"
     scoreboard objectives add BankTrigger trigger "銀行得觸發器"
     scoreboard objectives add BankUseTrigger trigger "銀行操作觸發器"

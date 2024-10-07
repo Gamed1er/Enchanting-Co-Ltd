@@ -4,10 +4,12 @@
     "predicate": {
       "equipment": {
         "mainhand": {
+          "items": "#enchantments:weapons",
           "predicates": {
             "minecraft:enchantments": [
               {
-                "enchantments": "enchantments:stone_shield"
+                "enchantments": "enchantments:universal/vampire",
+                "levels": 1
               }
             ]
           }
