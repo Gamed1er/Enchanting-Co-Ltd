@@ -7,3 +7,7 @@
 
 # WIKI
 中文版 [https://hackmd.io/j3uZbpi3RqOkruei8fCc5A?both](https://hackmd.io/@Gdnb0929/HJqyc5H0C)
+
+# 製作團隊
+- 發起者 : 遊戲亡 gdnb_0428
+- 協作者 : 特別的特特 special_tt
