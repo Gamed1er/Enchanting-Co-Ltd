@@ -8,7 +8,7 @@ setblock ~2 ~ ~-4 minecraft:light_gray_wool
 setblock ~3 ~ ~-4 minecraft:light_gray_wool
 setblock ~4 ~ ~-4 minecraft:light_gray_concrete
 
-setblock ~-4 ~ ~-3 minecraft:air
+setblock ~-4 ~ ~-3 minecraft:light_gray_wool
 setblock ~-3 ~ ~-3 minecraft:smooth_stone_slab[type=top]
 setblock ~-2 ~ ~-3 minecraft:air
 setblock ~-1 ~ ~-3 minecraft:smooth_stone_slab[type=top]

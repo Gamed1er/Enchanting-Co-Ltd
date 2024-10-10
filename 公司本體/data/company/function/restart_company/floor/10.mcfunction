@@ -19,7 +19,8 @@ setblock ~3 ~ ~-3 minecraft:air
 setblock ~4 ~ ~-3 minecraft:white_stained_glass_pane
 
 setblock ~-4 ~ ~-2 minecraft:white_stained_glass_pane
-setblock ~-3 ~ ~-2 minecraft:air
+setblock ~-3 ~ ~-2 oak_wall_sign[facing=south]
+data merge block ~-3 ~ ~-2 {front_text:{messages:['{"text":""}','{"text":"【清除附魔懲罰】","color":"gray","bold":true,"clickEvent":{"action":"run_command","value":"/trigger OtherTrigger set 6"}}','[{"text":"一次","color":"gray"},{"text":"250","color":"dark_blue","bold":true},{"text":"青金石","color":"gray"}]','{"text":""}']}}
 setblock ~-2 ~ ~-2 minecraft:air
 setblock ~-1 ~ ~-2 minecraft:air
 setblock ~0 ~ ~-2 oak_wall_sign[facing=south]

@@ -7,4 +7,5 @@ execute if score @s OtherTrigger matches 3 run function company:others/elevator_
 
 execute if score @s OtherTrigger matches 4 run function system:trigger/other_trigger/4
 execute if score @s OtherTrigger matches 5 run function company:others/sell_enchantments
+execute if score @s OtherTrigger matches 6 run function company:others/reset_repair_cost
 scoreboard players set @s OtherTrigger -1

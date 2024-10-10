@@ -21,5 +21,5 @@ execute if score @s EnchantmentsTeleportEnderEnergy matches 3.. unless score @s 
 execute unless score @s EnchantmentsTeleportEnderEnergy matches 3.. unless score @s EnchantmentsTeleportCoolDown matches 1.. run playsound entity.villager.no master @s
 
 execute if score @s EnchantmentsTeleportEnderEnergy matches 3.. unless score @s EnchantmentsTeleportCoolDown matches 1.. at @s run playsound entity.enderman.teleport master @s
-execute unless score @s EnchantmentsTeleportCoolDown matches 1.. run scoreboard players set @s EnchantmentsTeleportCoolDown 24
+execute unless score @s EnchantmentsTeleportCoolDown matches 1.. run scoreboard players set @s EnchantmentsTeleportCoolDown 26
 advancement revoke @a only enchantments:teleport2
