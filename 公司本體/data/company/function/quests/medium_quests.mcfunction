@@ -1,3 +1,5 @@
+scoreboard players set @s QuestHandOn 0
+
 execute store result score Random QuestTrigger run random value 0..1
 execute store result score XpLevel QuestTrigger run data get entity @s XpLevel
 execute if score XpLevel QuestTrigger < @s QuestXpRequiredMedium run scoreboard players set Random QuestTrigger -1

@@ -31,4 +31,4 @@ scoreboard players set 1105 QuestRequirements 12
 scoreboard objectives add QuestMakingBread crafted:bread
 
 #十
-
+scoreboard players set 1106 QuestRequirements 5

@@ -27,6 +27,8 @@ execute as @a run tellraw @s ["",{"text":"【附魔股份有限公司】","bold"
     scoreboard objectives add QuestXpRequiredEasy dummy "玩家任務所需經驗值(簡單)"
     scoreboard objectives add QuestXpRequiredMedium dummy "玩家任務所需經驗值(中等)"
     scoreboard objectives add QuestXpRequiredHard dummy "玩家任務所需經驗值(困難)"
+    scoreboard objectives add QuestHandOn dummy "玩家是否需要繳交物品"
+    scoreboard objectives add QuestTemp dummy "任務用暫存"
     function company:quests/reset_quest
 
     #Bank

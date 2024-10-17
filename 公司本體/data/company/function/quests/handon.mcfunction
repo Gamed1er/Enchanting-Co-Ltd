@@ -1,0 +1,1 @@
+$function company:quests/judge/$(Quest1)_

@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"【任務系統】","bold":true,"color":"dark_blue"},{"text":"任務開始 !","color":"gray"},"\n",{"text":"任務內容  :  繳交","color":"gray"},{"text":" 5 個 ","bold":true,"color":"yellow"},{"text":"牛奶桶","color":"gray"}]
+scoreboard players set @s QuestHandOn 1
