@@ -21,7 +21,5 @@ execute as @s[tag = Vampire] run scoreboard players add @s EnchantmentsVampireLv
 
 scoreboard players set Temp EnchantmentsVampireLv 5000
 scoreboard players operation Temp EnchantmentsVampireLv /= @s EnchantmentsVampireLv
-execute if score @s EnchantmentsVampireDamage >= Temp EnchantmentsVampireLv run playsound minecraft:entity.illusioner.cast_spell master @s ~ ~10 ~ 1 0.5 0
-
-execute if score @s EnchantmentsVampireDamage >= Temp EnchantmentsVampireLv run scoreboard players add @s EnchantmentsVampireRegCount 1
+execute if score @s EnchantmentsVampireDamage >= Temp EnchantmentsVampireLv run function enchantments:universal/vampire_regan
 execute if score @s EnchantmentsVampireDamage >= Temp EnchantmentsVampireLv run scoreboard players operation @s EnchantmentsVampireDamage -= Temp EnchantmentsVampireLv

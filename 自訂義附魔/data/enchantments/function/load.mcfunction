@@ -22,6 +22,8 @@ scoreboard objectives add EnchantmentsLegendaryBread dummy "麵包技能冷卻"
 scoreboard objectives add EnchantmentsVampireRegCount dummy "回血次數"
 scoreboard objectives add EnchantmentsVampireDamage minecraft.custom:minecraft.damage_dealt "吸血傷害量"
 scoreboard objectives add EnchantmentsVampireLv dummy "吸血 % 數 (x1000)"
+scoreboard objectives add EnchantmentsVampireTemp dummy
+
 execute as @r run say 資料包載入完畢
 
 schedule function enchantments:tick1s 1s
