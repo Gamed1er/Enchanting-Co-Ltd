@@ -1,12 +1,12 @@
 {
     "description": {
-      "text": "起死回生",
+      "text": "以飢止血",
       "color": "dark_purple",
       "bold": true
     },
-    "supported_items": "#taglib:armor/leggings",
+    "supported_items": "#taglib:armor/helmets",
     "weight": 1,
-    "max_level": 5,
+    "max_level": 1,
     "min_cost": {
       "base": 0,
       "per_level_above_first": 0
@@ -17,14 +17,14 @@
     },
     "anvil_cost": 8,
     "slots": [
-      "legs"
+      "head"
     ],
     "effects": {
       "minecraft:tick": [
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "enchantments:universal/vampire"
+            "function": "enchantments:helmet/starlth"
           }
         }
       ]

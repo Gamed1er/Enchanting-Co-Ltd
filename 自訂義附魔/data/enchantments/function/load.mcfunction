@@ -19,6 +19,8 @@ scoreboard objectives add EnchantmentsAntidote dummy "無毒秘錄冷卻"
 
 scoreboard objectives add EnchantmentsLegendaryBread dummy "麵包技能冷卻"
 
+scoreboard objectives add EnchantmentsStarLthHunger dummy "以飢止血"
+
 scoreboard objectives add EnchantmentsVampireRegCount dummy "回血次數"
 scoreboard objectives add EnchantmentsVampireDamage minecraft.custom:minecraft.damage_dealt "吸血傷害量"
 scoreboard objectives add EnchantmentsVampireLv dummy "吸血 % 數 (x1000)"
