@@ -1,8 +1,8 @@
 {
   "description": {
-    "text": "法國麵包",
     "color": "gold",
-    "bold": true
+    "bold": true,
+    "translate": "enchantment.enchantments.legendary_bread"
   },
   "supported_items": "minecraft:bread",
   "weight": 1,
