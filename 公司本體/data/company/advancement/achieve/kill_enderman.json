@@ -3,14 +3,15 @@
       "icon": {
         "id": "minecraft:ender_pearl"
       },
-      "title": "終界使者殺手",
+      "title": {
+          "translate": "advancements.achieve.kill_enderman.title"},
       "description": [
         {
-          "text": "擊殺 1000 隻 終界使者\n",
+          "translate": "advancements.achieve.kill_enderman.description",
           "color": "gray"
         },
         {
-          "text": "解鎖 【傳送】",
+          "translate": "advancements.achieve.kill_enderman.award",
           "color": "gold",
           "bold": true
         }
