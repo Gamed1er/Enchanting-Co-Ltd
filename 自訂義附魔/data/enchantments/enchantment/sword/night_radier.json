@@ -1,7 +1,7 @@
 {
     "description": {
-      "text": "夜襲者",
-      "color": "green"
+      "color": "green",
+    "translate": "enchantment.enchantments.night_radier"
     },
     "exclusive_set": "enchantments:sword/night_radier",
     "supported_items": "#minecraft:swords",
