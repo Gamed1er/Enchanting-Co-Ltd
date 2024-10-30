@@ -1,7 +1,7 @@
 {
   "description": {
-    "text": "終界剋星",
-    "color": "blue"
+    "color": "blue",
+    "translate": "enchantment.enchantments.end_radier"
   },
   "exclusive_set": ["minecraft:smite","depth_strider"],
   "supported_items": "#minecraft:swords",
