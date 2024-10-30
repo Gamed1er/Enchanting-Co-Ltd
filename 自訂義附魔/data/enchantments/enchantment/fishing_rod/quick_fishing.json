@@ -1,7 +1,7 @@
 {
   "description": {
-    "text": "鉤鉤有魚上",
-    "color": "blue"
+    "color": "blue",
+    "translate": "enchantment.enchantments.quick_fishing"
   },
   "exclusive_set": "minecraft:lure",
   "supported_items": "minecraft:fishing_rod",
