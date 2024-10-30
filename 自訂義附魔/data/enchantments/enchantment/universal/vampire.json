@@ -1,8 +1,8 @@
 {
     "description": {
-      "text": "吸血",
       "color": "dark_purple",
-      "bold": true
+      "bold": true,
+    "translate": "enchantment.enchantments.vampire"
     },
     "supported_items": "#enchantments:weapons",
     "weight": 1,
