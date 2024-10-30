@@ -6,19 +6,21 @@
         "minecraft:custom_model_data": 1
       }
     },
-    "title": "和平、土地、麵包 !  (III)",
+    "title": {
+      "translate": "advancements.achieve.consume_100_bread.title"
+    },
     "description": [
       {
-        "text": "食用 200 個麵包\n",
+        "translate": "advancements.achieve.consume_100_bread.description",
         "color": "gray"
       },
       {
-        "text": "獲得 【麵包大俠的戰帖】\n",
+        "translate": "advancements.achieve.consume_100_bread.award",
         "color": "gold",
         "bold": true
       },
       {
-        "text": "PS : 如果戰帖不見了\n那再重吃 200 個麵包吧 :)",
+        "translate": "advancements.achieve.consume_100_bread.ps",
         "color": "dark_gray"
       }
     ],
