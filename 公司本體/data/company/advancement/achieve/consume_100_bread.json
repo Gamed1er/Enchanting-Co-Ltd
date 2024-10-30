@@ -3,14 +3,16 @@
     "icon": {
       "id": "minecraft:bread"
     },
-    "title": "和平、土地、麵包 !  (II)",
+    "title": {
+      "translate": "advancements.achieve.consume_100_bread.title"
+    },
     "description": [
       {
-        "text": "食用 100 個麵包\n",
+        "translate": "advancements.achieve.consume_100_bread.description",
         "color": "gray"
       },
       {
-        "text": "獲得【效率 VII】附魔書 1 本",
+        "translate": "advancements.achieve.consume_100_bread.award",
         "color": "gold",
         "bold": true
       }
