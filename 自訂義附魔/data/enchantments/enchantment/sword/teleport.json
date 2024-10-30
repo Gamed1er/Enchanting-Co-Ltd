@@ -1,8 +1,8 @@
 {
   "description": {
-    "text": "傳送",
     "color": "gold",
-    "bold": true
+    "bold": true,
+    "translate": "enchantment.enchantments.teleport"
   },
   "supported_items": "#minecraft:enchantable/sword",
   "weight": 1,
