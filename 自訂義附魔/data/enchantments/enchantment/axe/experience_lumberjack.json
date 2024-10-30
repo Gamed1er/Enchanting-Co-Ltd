@@ -1,7 +1,7 @@
 {
   "description": {
-    "text": "經驗伐木工",
-    "color": "dark_purple"
+    "color": "dark_purple",
+    "translate": "enchantment.enchantments.experience_lumberjack"
   },
   "supported_items": "#minecraft:axes",
   "primary_items": "#minecraft:axes",
