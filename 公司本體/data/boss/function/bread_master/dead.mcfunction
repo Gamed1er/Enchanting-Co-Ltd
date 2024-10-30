@@ -1,2 +1,2 @@
-tellraw @a[distance = ..32] ["",{"text":"【麵包大俠】","color":"gold"},{"text":"不錯阿，你的實力非常強勁 !\n","bold":true,"color":"gray"},{"text":"【麵包大俠】","color":"gold"},{"text":"這個法國麵包就送給你了 !\n","bold":true,"color":"gray"},{"text":"【麵包大俠】","color":"gold"},{"text":"我們下次有緣再見 !","bold":true,"color":"gray"}]
+tellraw @a[distance = ..32] ["",{"translate":"say.bread_master.0","color":"gold"},{"translate":"say.bread_master.1","bold":true,"color":"gray"},{"translate":"say.bread_master.0","color":"gold"},{"translate":"say.bread_master.2","bold":true,"color":"gray"},{"translate":"say.bread_master.0","color":"gold"},{"translate":"say.bread_master.3","bold":true,"color":"gray"}]
 advancement revoke @a only boss:bread_master
