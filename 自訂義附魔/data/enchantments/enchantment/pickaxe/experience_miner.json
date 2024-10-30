@@ -1,7 +1,7 @@
 {
   "description": {
-    "text": "經驗礦工",
-    "color": "dark_purple"
+    "color": "dark_purple",
+    "translate": "enchantment.enchantments.experience_miner"
   },
   "supported_items": "#minecraft:pickaxes",
   "primary_items": "#minecraft:pickaxes",
