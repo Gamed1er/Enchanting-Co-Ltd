@@ -1,7 +1,7 @@
 {
   "description": {
     "color": "green",
-    "translate": "enchantment.enchantments.apple_lover"
+    "translate": "enchantment.enchantments.underground_miner"
   },
   "supported_items": "#minecraft:pickaxes",
   "primary_items": "#minecraft:pickaxes",
