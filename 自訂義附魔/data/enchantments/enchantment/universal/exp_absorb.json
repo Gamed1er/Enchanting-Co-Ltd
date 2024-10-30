@@ -1,8 +1,8 @@
 {
     "description": {
-      "text": "經驗吸塵器",
       "color": "dark_purple",
-      "bold": true
+      "bold": true,
+    "translate": "enchantment.enchantments.exp_absorb"
     },
     "supported_items": "#enchantments:tools",
     "weight": 1,
