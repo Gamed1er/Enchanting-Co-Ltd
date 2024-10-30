@@ -3,8 +3,12 @@
       "icon": {
         "id": "minecraft:enchanted_book"
       },
-      "title": "歡迎來到附魔有限股份公司",
-      "description": "這裡有各式各樣的進度\n完成他們來獲得隱藏附魔 ~",
+      "title": {
+          "translate": "advancements.achieve.root.title"
+      },
+      "description": {
+          "advancements.achieve.root.description"
+      },
       "background": "minecraft:textures/block/white_concrete.png",
       "frame": "goal"
     },
