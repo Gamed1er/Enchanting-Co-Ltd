@@ -1,7 +1,7 @@
 {
     "description": {
-      "text": "日襲者",
-      "color": "green"
+      "color": "green",
+    "translate": "enchantment.enchantments.rainy_radier"
     },
     "exclusive_set": "enchantments:sword/rainy_radier",
     "supported_items": "#minecraft:swords",
