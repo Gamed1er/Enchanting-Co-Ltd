@@ -1,8 +1,8 @@
 {
     "description": {
-      "text": "金鐘罩",
       "color": "dark_purple",
-      "bold": true
+      "bold": true,
+    "translate": "enchantment.enchantments.gold_bell"
     },
     "supported_items": "minecraft:totem_of_undying",
     "primary_items": "minecraft:totem_of_undying",
