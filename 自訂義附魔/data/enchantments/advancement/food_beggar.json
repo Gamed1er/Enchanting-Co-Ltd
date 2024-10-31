@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "bowl",
+            "count": 1,
+            "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:other/food_beggar",
+                "levels": 1
+              }
+            ]
+          }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "enchantments:other/food_beggar"
+    }
+  }
+  

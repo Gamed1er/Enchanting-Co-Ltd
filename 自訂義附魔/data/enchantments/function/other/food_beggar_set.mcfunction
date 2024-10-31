@@ -1,0 +1,1 @@
+execute unless predicate enchantments:other/food_beggar run item modify entity @s weapon.mainhand enchantments:food_beggar

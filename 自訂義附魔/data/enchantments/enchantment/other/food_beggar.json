@@ -1,0 +1,32 @@
+{
+    "description": {
+      "text": "嗟來食",
+      "color": "green"
+    },
+    "supported_items": "minecraft:bowl",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 2,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "enchantments:other/food_beggar_set"
+          }
+        }
+      ]
+    }
+  }
+  
