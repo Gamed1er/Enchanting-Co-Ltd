@@ -1,3 +1,3 @@
 execute unless predicate enchantments:helmet/starlth store result score @s EnchantmentsStarLthHunger run data get entity @s foodLevel 1
-execute unless predicate enchantments:helmet/starlth if score @s EnchantmentsStarLthHunger matches 17.. run function enchantments:universal/vampire_regan
-execute unless predicate enchantments:helmet/starlth if score @s EnchantmentsStarLthHunger matches 17.. run function enchantments:helmet/starlth_hunger
+execute unless predicate enchantments:helmet/starlth if score @s EnchantmentsStarLthHunger matches 15.. run function enchantments:universal/vampire_regan
+execute unless predicate enchantments:helmet/starlth if score @s EnchantmentsStarLthHunger matches 15.. run function enchantments:helmet/starlth_hunger

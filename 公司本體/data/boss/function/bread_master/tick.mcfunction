@@ -14,10 +14,15 @@ execute store result score @s BossVariable1 run random value 1..2000
 execute if score @s BossVariable1 matches 2000 run tp @s @p
 
 #更遠處的普攻每 tick 有 5% 觸發，單體攻擊
-execute store result score @s BossVariable1 run random value 1..20
-execute if score @s BossVariable1 matches 20 if entity @e[type = #boss:boss_target, distance = ..6] run playsound entity.player.attack.crit master @a[distance=..32] ~ ~ ~ 1.0 1.2 0.1
-execute if score @s BossVariable1 matches 20 if entity @e[type = #boss:boss_target, distance = ..6] as @e[type = #boss:boss_target, distance = ..6] run damage @s 6 arrow by @s from @s
-execute if score @s BossVariable1 matches 20 if entity @e[type = #boss:boss_target, distance = ..6] as @e[type = #boss:boss_target, distance = ..6, nbt = !{playerGameType:1}] run effect give @n hunger 1200 5 false
+execute store result score @s BossVariable1 run random value 1..10
+execute if score @s BossVariable1 matches 1 as @e[type = #boss:boss_target, distance = ..6] run tag @s add BreadMasterTarget
+execute if score @s BossVariable1 matches 1 as @s[gamemode = creative] run tag @s remove BreadMasterTarget
+execute if score @s BossVariable1 matches 1 as @s[gamemode = spectator] run tag @s remove BreadMasterTarget
+
+execute as @e[tag = BreadMasterTarget] run playsound entity.player.attack.crit master @a[distance=..32] ~ ~ ~ 1.0 1.2 0.1
+execute as @e[tag = BreadMasterTarget] run damage @s 6 arrow at ~ ~ ~ 
+execute as @e[tag = BreadMasterTarget] run effect give @n hunger 1200 5 false
+execute as @e[tag = BreadMasterTarget] run tag @s remove BreadMasterTarget
 
 
 #技能一 - 麵包衝擊
