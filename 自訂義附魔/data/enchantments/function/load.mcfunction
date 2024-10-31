@@ -26,7 +26,7 @@ scoreboard objectives add EnchantmentsVampireDamage minecraft.custom:minecraft.d
 scoreboard objectives add EnchantmentsVampireLv dummy "吸血 % 數 (x1000)"
 scoreboard objectives add EnchantmentsVampireTemp dummy
 
-execute as @r run say 資料包載入完畢
+execute as @a run tellraw @s [{"translate":"say.load.dp"}]
 
 schedule function enchantments:tick1s 1s
 schedule function enchantments:tick1m 1s
