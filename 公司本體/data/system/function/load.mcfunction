@@ -1,4 +1,4 @@
-execute as @a run tellraw @s ["",{"text":"【附魔股份有限公司】","bold":true,"color":"light_purple"},{"text":" 安裝完畢","color":"gray"},"\n",{"text":"歡迎","color":"gray"},{"selector":"@s","bold":true,"color":"green"},{"text":"來到公司","color":"gray"},"\n",{"text":"請在一個指令方塊中輸入指令","color":"gray"},{"text":"( 點我複製 )","bold":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"function company:restart_company/start"}},{"text":"來完成設置","color":"gray"}]
+execute as @a run tellraw @s ["",{"translate":"say.load.1","bold":true,"color":"light_purple"},{"translate":"say.load.2","color":"gray"},"\n",{"translate":"say.load.3","color":"gray"},{"selector":"@s","bold":true,"color":"green"},{"translate":"say.load.4","color":"gray"},"\n",{"translate":"say.load.5","color":"gray"},{"translate":"say.load.5","bold":true,"color":"dark_green","clickEvent":{"action":"copy_to_clipboard","value":"/function company:restart_company/start"}},{"translate":"say.load.6","color":"gray"}]
 
 #tick_1t
     schedule clear system:tick_1s
