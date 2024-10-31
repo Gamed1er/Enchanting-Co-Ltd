@@ -3,14 +3,16 @@
     "icon": {
       "id": "minecraft:bread"
     },
-    "title": "和平、土地、麵包 !  (I)",
+    "title": {
+      "translate": "advancements.achieve.consume_20_bread.title"
+    },
     "description": [
       {
-        "text": "食用 20 個麵包\n",
+        "translate": "advancements.achieve.consume_20_bread.description",
         "color": "gray"
       },
       {
-        "text": "獲得【耐久 IV】附魔書 1 本",
+        "translate": "advancements.achieve.consume_20_bread.award",
         "color": "gold",
         "bold": true
       }

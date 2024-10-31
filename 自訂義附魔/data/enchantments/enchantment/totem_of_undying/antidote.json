@@ -1,7 +1,7 @@
 {
     "description": {
-      "text": "無毒秘錄",
-      "color": "blue"
+      "color": "blue",
+    "translate": "enchantment.enchantments.antidote"
     },
     "supported_items": "minecraft:totem_of_undying",
     "weight": 1,

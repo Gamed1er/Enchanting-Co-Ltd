@@ -1,7 +1,7 @@
 {
     "description": {
-      "text": "凋零之刃",
-      "color": "green"
+      "color": "green",
+    "translate": "enchantment.enchantments.wither_blade"
     },
     "supported_items": ["stone_sword", "breeze_rod"],
     "weight": 2,

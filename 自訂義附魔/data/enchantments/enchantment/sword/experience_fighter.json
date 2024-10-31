@@ -1,7 +1,7 @@
 {
   "description": {
-    "text": "經驗戰士",
-    "color": "dark_purple"
+    "color": "dark_purple",
+    "translate": "enchantment.enchantments.experience_fighter"
   },
   "supported_items": "#minecraft:swords",
   "primary_items": "#minecraft:swords",

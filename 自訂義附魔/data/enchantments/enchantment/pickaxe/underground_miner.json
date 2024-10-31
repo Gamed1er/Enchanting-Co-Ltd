@@ -1,7 +1,7 @@
 {
   "description": {
-    "text": "地核挖掘者",
-    "color": "green"
+    "color": "green",
+    "translate": "enchantment.enchantments.underground_miner"
   },
   "supported_items": "#minecraft:pickaxes",
   "primary_items": "#minecraft:pickaxes",

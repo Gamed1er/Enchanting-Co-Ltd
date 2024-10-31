@@ -1,8 +1,8 @@
 {
     "description": {
-      "text": "加長挖掘",
       "color": "dark_purple",
-      "bold": true
+      "bold": true,
+    "translate": "enchantment.enchantments.long_range"
     },
     "supported_items": "#enchantments:tools",
     "weight": 1,

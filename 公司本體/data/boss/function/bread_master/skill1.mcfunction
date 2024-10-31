@@ -1,6 +1,6 @@
 #提示
-execute if score @s BossSkillCoolDown1 matches -1 run tellraw @a[distance = ..32] ["",{"text":"【麵包大俠】","color":"gold"},{"text":"感受一下","bold":true,"color":"gray"},{"text":"飢餓的滋味","bold":true,"color":"red"},{"text":"，朋友 !","bold":true,"color":"gray"}]
-execute if score @s BossSkillCoolDown1 matches -1 run tellraw @a[distance = ..32] [{"text":"盡快解除飢餓避免強力攻擊 !!", "color": "dark_gray"}]
+execute if score @s BossSkillCoolDown1 matches -1 run tellraw @a[distance = ..32] ["",{"translate":"say.bread_master.0","color":"gold"},{"translate":"say.bread_master.skill1.1","bold":true,"color":"gray"},{"translate":"say.bread_master.skill1.2","bold":true,"color":"red"},{"translate":"say.bread_master.skill1.3","bold":true,"color":"gray"}]
+execute if score @s BossSkillCoolDown1 matches -1 run tellraw @a[distance = ..32] [{"translate":"say.bread_master.skill1.4", "color": "dark_gray"}]
 
 #BOSS 蓄力
 data modify entity @s NoAI set value 1b

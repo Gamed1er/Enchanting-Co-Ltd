@@ -1,8 +1,8 @@
 {
     "description": {
-      "text": "被動式收入",
       "color": "dark_purple",
-      "bold": true
+      "bold": true,
+    "translate": "enchantment.enchantments.passive_income"
     },
     "supported_items": "#minecraft:chest_armor",
     "weight": 1,

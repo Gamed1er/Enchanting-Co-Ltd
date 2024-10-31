@@ -1,8 +1,8 @@
 {
     "description": {
-      "text": "以飢止血",
       "color": "dark_purple",
-      "bold": true
+      "bold": true,
+    "translate": "enchantment.enchantments.starlth"
     },
     "supported_items": "#taglib:armor/helmets",
     "weight": 1,

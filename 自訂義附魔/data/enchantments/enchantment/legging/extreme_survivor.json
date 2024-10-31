@@ -1,8 +1,8 @@
 {
     "description": {
-      "text": "起死回生",
       "color": "dark_purple",
-      "bold": true
+      "bold": true,
+    "translate": "enchantment.enchantments.extreme_survivor"
     },
     "supported_items": "#taglib:armor/leggings",
     "weight": 1,

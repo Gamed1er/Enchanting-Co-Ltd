@@ -1,9 +1,9 @@
 {
     "description": {
-    "text": "登大人",
     "color": "light_purple",
     "bold": true,
-    "underlined": true
+    "underlined": true,
+    "translate": "enchantment.enchantments.jaygao"
   },
     "supported_items": "#minecraft:breaks_decorated_pots",
     "primary_items": "#minecraft:breaks_decorated_pots",
