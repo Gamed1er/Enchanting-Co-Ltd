@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_name",
     "name": {
-      "translate"": "item.enchantments.legendary_bread",
+      "translate": "item.enchantments.legendary_bread",
       "color": "gold",
       "bold": true
     }
