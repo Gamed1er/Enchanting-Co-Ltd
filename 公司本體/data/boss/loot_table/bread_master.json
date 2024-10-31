@@ -33,7 +33,33 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 10,
+            "weight": 7,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:mending": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 7,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:mending": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 7,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
@@ -51,7 +77,10 @@
               {
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
-                  "minecraft:mending": 1
+                  "enchantments:universal/faster_attack": {
+                    "min": 2,
+                    "max": 3
+                  }
                 }
               }
             ]
@@ -64,7 +93,10 @@
               {
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
-                  "minecraft:mending": 1
+                  "enchantments:universal/long_range": {
+                    "min": 1,
+                    "max": 2
+                  }
                 }
               }
             ]
@@ -72,20 +104,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 10,
-            "functions": [
-              {
-                "function": "minecraft:set_enchantments",
-                "enchantments": {
-                  "enchantments:universal/faster_attack": 1
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:book",
-            "weight": 10,
+            "weight": 7,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
