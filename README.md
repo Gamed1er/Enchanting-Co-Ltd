@@ -6,8 +6,8 @@
 我們將以附魔為主題，為玩家們新增更多新奇、有趣的玩法
 
 # WIKI
-中文版 [https://hackmd.io/j3uZbpi3RqOkruei8fCc5A?both](https://hackmd.io/@Gdnb0929/HJqyc5H0C)
+繁中版 [https://hackmd.io/j3uZbpi3RqOkruei8fCc5A?both](https://hackmd.io/@Gdnb0929/HJqyc5H0C)
 
 # 製作團隊
-- 發起者 : 遊戲亡 gdnb_0428
-- 協作者(靈感提供) : 特別的特特 special_tt
+- 公司本體、附魔 :遊戲亡 gdnb_0428
+- 翻譯、測試 : 特別的特特 Special_TT
