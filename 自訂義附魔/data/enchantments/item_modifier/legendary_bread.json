@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_name",
     "name": {
-      "text": "【法國麵包】",
+      "translate"": "item.enchantments.legendary_bread",
       "color": "gold",
       "bold": true
     }
