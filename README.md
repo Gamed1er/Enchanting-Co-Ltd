@@ -9,5 +9,5 @@
 繁中版 [https://hackmd.io/j3uZbpi3RqOkruei8fCc5A?both](https://hackmd.io/@Gdnb0929/HJqyc5H0C)
 
 # 製作團隊
-- 公司本體、附魔 :遊戲亡 gdnb_0428
-- 翻譯、測試 : 特別的特特 Special_TT
+- 公司本體、附魔等內部代碼 : 遊戲亡 gdnb_0428
+- 文書、測試 : 特別的特特 Special_TT
