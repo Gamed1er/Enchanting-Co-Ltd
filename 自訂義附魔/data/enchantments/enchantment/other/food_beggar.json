@@ -1,7 +1,7 @@
 {
     "description": {
-      "text": "嗟來食",
-      "color": "green"
+      "color": "green",
+      "translate": "enchantment.enchantments.food_beggar"
     },
     "supported_items": "minecraft:bowl",
     "weight": 1,
