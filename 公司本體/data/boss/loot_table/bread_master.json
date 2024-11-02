@@ -38,7 +38,7 @@
               {
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
-                  "minecraft:mending": 1
+                  "enchantments:other/bread_strave_killer": 1
                 }
               }
             ]
@@ -51,7 +51,7 @@
               {
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
-                  "minecraft:mending": 1
+                  "enchantments:other/food_beggar": 1
                 }
               }
             ]

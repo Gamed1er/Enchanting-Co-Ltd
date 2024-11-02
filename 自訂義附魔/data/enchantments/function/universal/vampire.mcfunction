@@ -1,19 +1,19 @@
 scoreboard players set @s EnchantmentsVampireLv 0
 
 #Vampire
-execute if predicate enchantments:universal/vampire_lv1 run scoreboard players add @s EnchantmentsVampireLv 100
-execute if predicate enchantments:universal/vampire_lv2 run scoreboard players add @s EnchantmentsVampireLv 125
-execute if predicate enchantments:universal/vampire_lv3 run scoreboard players add @s EnchantmentsVampireLv 150
-execute if predicate enchantments:universal/vampire_lv4 run scoreboard players add @s EnchantmentsVampireLv 175
-execute if predicate enchantments:universal/vampire_lv5 run scoreboard players add @s EnchantmentsVampireLv 200
+execute if predicate enchantments:universal/vampire_lv1 run scoreboard players add @s EnchantmentsVampireLv 50
+execute if predicate enchantments:universal/vampire_lv2 run scoreboard players add @s EnchantmentsVampireLv 75
+execute if predicate enchantments:universal/vampire_lv3 run scoreboard players add @s EnchantmentsVampireLv 100
+execute if predicate enchantments:universal/vampire_lv4 run scoreboard players add @s EnchantmentsVampireLv 125
+execute if predicate enchantments:universal/vampire_lv5 run scoreboard players add @s EnchantmentsVampireLv 150
 
 #Exterme Survivor
-execute if predicate enchantments:leggings/extreme_survivor_lv1 run scoreboard players add @s EnchantmentsVampireLv 400
-execute if predicate enchantments:leggings/extreme_survivor_lv2 run scoreboard players add @s EnchantmentsVampireLv 475
-execute if predicate enchantments:leggings/extreme_survivor_lv3 run scoreboard players add @s EnchantmentsVampireLv 550
-execute if predicate enchantments:leggings/extreme_survivor_lv4 run scoreboard players add @s EnchantmentsVampireLv 625
-execute if predicate enchantments:leggings/extreme_survivor_lv5 run scoreboard players add @s EnchantmentsVampireLv 700
-execute if predicate enchantments:leggings/extreme_survivor_ex run scoreboard players add @s EnchantmentsVampireLv 400
+execute if predicate enchantments:leggings/extreme_survivor_lv1 run scoreboard players add @s EnchantmentsVampireLv 200
+execute if predicate enchantments:leggings/extreme_survivor_lv2 run scoreboard players add @s EnchantmentsVampireLv 250
+execute if predicate enchantments:leggings/extreme_survivor_lv3 run scoreboard players add @s EnchantmentsVampireLv 300
+execute if predicate enchantments:leggings/extreme_survivor_lv4 run scoreboard players add @s EnchantmentsVampireLv 350
+execute if predicate enchantments:leggings/extreme_survivor_lv5 run scoreboard players add @s EnchantmentsVampireLv 400
+execute if predicate enchantments:leggings/extreme_survivor_ex run scoreboard players add @s EnchantmentsVampireLv 200
 
 #Tag = Vampire
 execute as @s[tag = Vampire] run scoreboard players add @s EnchantmentsVampireLv 1000

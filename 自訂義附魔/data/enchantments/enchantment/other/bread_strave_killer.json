@@ -1,0 +1,119 @@
+{
+  "description": {
+    "text": "法棍 - 飢餓反殺",
+    "color": "blue"
+  },
+  "supported_items": "minecraft:bread",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "min": 0,
+              "max": 12
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.25,
+            "per_level_above_first": 0.25
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:hunger": {
+                "amplifier": {
+                  "min": 0,
+                  "max": 100
+                },
+                "duration": {
+                  "min": 0,
+                  "max": 99999
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.25,
+            "per_level_above_first": 0.25
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:hunger": {
+                "amplifier": {
+                  "min": 10,
+                  "max": 100
+                },
+                "duration": {
+                  "min": 0,
+                  "max": 99999
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:hunger",
+          "min_duration": 5,
+          "max_duration": 5,
+          "min_amplifier": 4,
+          "max_amplifier": 4
+        },
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 1.0
+        }
+      }
+    ]
+  }
+}

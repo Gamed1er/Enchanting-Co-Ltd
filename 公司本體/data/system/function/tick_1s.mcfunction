@@ -1,9 +1,5 @@
 schedule function system:tick_1s 1s
 
-execute as @e[type=iron_golem, tag=!test] run attribute @s generic.armor base set 10
-execute as @e[type=iron_golem, tag=!test] run attribute @s generic.armor_toughness base set 5
-execute as @e[type=iron_golem, tag=!test] run attribute @s generic.attack_damage base set 30
-
 
 #Hint
     execute if score cooldown Hint matches ..-1 run function company:hints/serach

@@ -23,10 +23,24 @@
     {
       "rolls": 1,
       "entries": [
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 10,
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "enchantments:other/bread_strave_killer": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -39,12 +53,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 10,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:mending": 1
+                "enchantments:other/food_beggar": 1
               }
             }
           ]
@@ -57,7 +71,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:mending": 1
+                "enchantments:universal/long_range": 1
               }
             }
           ]
@@ -78,7 +92,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 10,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
