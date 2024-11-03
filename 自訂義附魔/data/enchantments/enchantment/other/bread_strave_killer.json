@@ -1,7 +1,7 @@
 {
   "description": {
-    "text": "法棍 - 飢餓反殺",
-    "color": "blue"
+    "color": "blue",
+    "translate": "enchantment.enchantments.bread_strave_killer"
   },
   "supported_items": "minecraft:bread",
   "weight": 1,
