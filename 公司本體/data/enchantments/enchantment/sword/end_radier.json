@@ -3,7 +3,6 @@
     "color": "blue",
     "translate": "enchantment.enchantments.end_radier"
   },
-  "exclusive_set": ["minecraft:smite","depth_strider"],
   "supported_items": "#minecraft:swords",
   "primary_items": "#minecraft:swords",
   "weight": 1,

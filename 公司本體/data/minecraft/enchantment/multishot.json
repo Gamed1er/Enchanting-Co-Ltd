@@ -3,7 +3,6 @@
     "translate": "enchantment.minecraft.multishot",
     "color": "blue"
   },
-  "exclusive_set": "#minecraft:exclusive_set/crossbow",
   "supported_items": "#minecraft:enchantable/crossbow",
   "weight": 2,
   "max_level": 1,
