@@ -3,7 +3,7 @@
     "translate": "enchantment.minecraft.power",
     "color": "green"
   },
-  "supported_items": ["#minecraft:enchantable/bow","#minecraft:enchantable/crossbow"],
+  "supported_items": "#minecraft:enchantable/bows",
   "weight": 10,
   "max_level": 5,
   "min_cost": {
