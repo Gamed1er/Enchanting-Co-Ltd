@@ -1,0 +1,50 @@
+{
+  "beastancestor.normal": {
+    "sounds": [
+      "resourcepack:tadokoro/short1",
+      "resourcepack:tadokoro/short2",
+      "resourcepack:tadokoro/short3"
+    ],"subtitle":"subtitles.snort"
+  },
+
+  "beastancestor.special1": {
+    "sounds": [
+      "resourcepack:tadokoro/short4"
+    ],"subtitle":"subtitles.ah.1"
+  },
+
+  "beastancestor.special2": {
+    "sounds": [
+      {
+        "name": "resourcepack:tadokoro/long1",
+        "stream": true
+      },
+      {
+        "name": "resourcepack:tadokoro/long2",
+        "stream": true
+      }
+    ],"subtitle":"subtitles.ah.2"
+  },
+
+  "kunkun":{
+    "sounds": [
+      "resourcepack:kunkun/kunkun2",
+      "resourcepack:kunkun/kunkun4"
+    ],"subtitle":"subtitles.kunkun"
+  },
+
+  "jaygao":{
+    "sounds": [
+      "resourcepack:jaygao/1",
+      "resourcepack:jaygao/2",
+      "resourcepack:jaygao/3"
+    ],"subtitle":"subtitles.jaygao"
+      
+  },
+
+  "legendary_bread":{
+    "sounds": [
+      "resourcepack:legendary_bread"
+    ],"subtitle":"subtitles.item.legendary_bread.skill"
+  }
+}

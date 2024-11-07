@@ -19,7 +19,8 @@ execute if predicate enchantments:leggings/extreme_survivor_ex run scoreboard pl
 execute as @s[tag = Vampire] run scoreboard players add @s EnchantmentsVampireLv 1000
 
 
-scoreboard players set Temp EnchantmentsVampireLv 5000
+scoreboard players set Temp EnchantmentsVampireLv 20000
 scoreboard players operation Temp EnchantmentsVampireLv /= @s EnchantmentsVampireLv
 execute if score @s EnchantmentsVampireDamage >= Temp EnchantmentsVampireLv run function enchantments:universal/vampire_regan
-execute if score @s EnchantmentsVampireDamage >= Temp EnchantmentsVampireLv run scoreboard players operation @s EnchantmentsVampireDamage -= Temp EnchantmentsVampireLv
+execute if score @s EnchantmentsVampireDamage >= Temp EnchantmentsVampireLv run scoreboard players operation @s EnchantmentsVampireDamage -= Temp EnchantmentsVampireLv 
+
