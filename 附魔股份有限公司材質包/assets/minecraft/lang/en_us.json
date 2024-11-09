@@ -92,5 +92,11 @@
     "subtitles.ah.1":"AhAhAh!",
     "subtitles.ah.2":"AhAhAh~",
     "subtitles.kunkun":"Kunkun",
-    "subtitles.jaygao":"No Jaygao"
+    "subtitles.jaygao":"No Jaygao",
+    "entity.boss.bread_master":"Bread Warrior",
+    "say.food_beggar.1":"You are so pitiful. Please take this food.",
+    "say.food_beggar.2":"Don't starve yourself, being well fed is the key to work.",
+    "say.food_beggar.3":"My mother said that if I don’t study hard, I will end up begging here in the future.",
+    "say.food_beggar.4":"I'll give you these foods, and help me accumulate some merit at the same time.",
+    "say.food_beggar.5":"Tsk tsk, you are so pitiful, take it and eat it.。"
 }
