@@ -16,8 +16,8 @@ execute if score @s BossVariable1 matches 2000 run tp @s @p
 #更遠處的普攻每 tick 有 5% 觸發，單體攻擊
 execute store result score @s BossVariable1 run random value 1..10
 execute if score @s BossVariable1 matches 1 as @e[type = #boss:boss_target, distance = ..6] run tag @s add BreadMasterTarget
-execute if score @s BossVariable1 matches 1 as @s[gamemode = creative] run tag @s remove BreadMasterTarget
-execute if score @s BossVariable1 matches 1 as @s[gamemode = spectator] run tag @s remove BreadMasterTarget
+execute if score @s BossVariable1 matches 1 as @a[gamemode = creative] run tag @s remove BreadMasterTarget
+execute if score @s BossVariable1 matches 1 as @a[gamemode = spectator] run tag @s remove BreadMasterTarget
 
 execute as @e[tag = BreadMasterTarget] run playsound entity.player.attack.crit master @a[distance=..32] ~ ~ ~ 1.0 1.2 0.1
 execute as @e[tag = BreadMasterTarget] run damage @s 6 arrow at ~ ~ ~ 
