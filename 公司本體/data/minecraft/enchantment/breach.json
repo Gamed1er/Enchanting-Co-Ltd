@@ -1,8 +1,7 @@
 {
   "description": {
     "translate": "enchantment.minecraft.breach",
-    "color": "dark_purple",
-    "bold": true
+    "color": "dark_purple"
   },
   "supported_items": "#minecraft:enchantable/weapon",
   "weight": 2,
