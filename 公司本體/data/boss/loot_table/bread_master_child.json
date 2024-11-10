@@ -27,7 +27,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 7,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -40,20 +40,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:mending": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 7,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -66,7 +53,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 10,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -79,7 +66,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 10,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -92,7 +79,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 7,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
@@ -105,7 +92,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:air",
-          "weight": 950
+          "weight": 63
         }
       ]
     }
