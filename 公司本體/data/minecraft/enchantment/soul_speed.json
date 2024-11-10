@@ -124,38 +124,6 @@
             }
           }
         }
-      },
-      {
-        "effect": {
-          "type": "minecraft:damage_item",
-          "amount": 1.0
-        },
-        "requirements": {
-          "condition": "minecraft:all_of",
-          "terms": [
-            {
-              "chance": {
-                "type": "minecraft:enchantment_level",
-                "amount": 0.04
-              },
-              "condition": "minecraft:random_chance"
-            },
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "flags": {
-                  "is_on_ground": true
-                },
-                "movement_affected_by": {
-                  "block": {
-                    "blocks": "#minecraft:soul_speed_blocks"
-                  }
-                }
-              }
-            }
-          ]
-        }
       }
     ],
     "minecraft:tick": [
