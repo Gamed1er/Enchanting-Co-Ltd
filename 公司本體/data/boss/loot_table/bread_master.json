@@ -92,14 +92,14 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 2,
+            "weight": 1,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
                   "enchantments:universal/faster_attack": {
-                    "min": 2,
-                    "max": 3
+                    "min": 1,
+                    "max": 2
                   }
                 }
               }
@@ -108,14 +108,30 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 2,
+            "weight": 1,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
                   "enchantments:universal/long_range": {
-                    "min": 2,
-                    "max": 3
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "enchantments:universal/long_attack": {
+                    "min": 1,
+                    "max": 2
                   }
                 }
               }
@@ -138,3 +154,4 @@
       }
     ]
   }
+  
