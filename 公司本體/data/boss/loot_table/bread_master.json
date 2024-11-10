@@ -22,6 +22,39 @@
                   "enchantments:other/legendary_bread": 1
                 },
                 "add": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.enchantments.legendary_bread",
+                  "color": "gold",
+                  "bold": true
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 20,
+                    "saturation": 20,
+                    "can_always_eat": true,
+                    "eat_seconds": 5,
+                    "effects": [
+                      {
+                        "effect": {
+                          "id": "minecraft:saturation",
+                          "amplifier": 0,
+                          "duration": 24000,
+                          "show_particles": true,
+                          "show_icon": true
+                        },
+                        "probability": 1
+                      }
+                    ]
+                  },
+                  "custom_model_data": 1,
+                  "minecraft:max_stack_size": 8
+                }
               }
             ]
           }
@@ -33,7 +66,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 7,
+            "weight": 1,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
@@ -46,7 +79,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 7,
+            "weight": 1,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
@@ -59,7 +92,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 7,
+            "weight": 1,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
@@ -72,7 +105,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 10,
+            "weight": 2,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
@@ -88,14 +121,14 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 10,
+            "weight": 2,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
                   "enchantments:universal/long_range": {
-                    "min": 1,
-                    "max": 2
+                    "min": 2,
+                    "max": 3
                   }
                 }
               }
@@ -104,7 +137,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:book",
-            "weight": 7,
+            "weight": 1,
             "functions": [
               {
                 "function": "minecraft:set_enchantments",
@@ -118,4 +151,3 @@
       }
     ]
   }
-  
