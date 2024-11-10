@@ -5,7 +5,7 @@
     },
     "supported_items": "minecraft:totem_of_undying",
     "primary_items": "minecraft:totem_of_undying",
-    "exclusive_set": "#minecraft:totem_of_undying/antidote",
+    "exclusive_set": "enchantments:totem_of_undying/antidote",
     "weight": 1,
     "max_level": 1,
     "min_cost": {
