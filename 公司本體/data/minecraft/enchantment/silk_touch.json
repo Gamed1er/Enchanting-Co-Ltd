@@ -2,8 +2,7 @@
   "anvil_cost": 8,
   "description": {
     "translate": "enchantment.minecraft.silk_touch",
-    "color": "dark_purple",
-    "bold": true
+    "color": "dark_purple"
   },
   "effects": {
     "minecraft:block_experience": [
