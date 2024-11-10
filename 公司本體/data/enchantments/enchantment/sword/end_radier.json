@@ -5,15 +5,15 @@
   },
   "supported_items": "#minecraft:swords",
   "primary_items": "#minecraft:swords",
-  "weight": 1,
+  "weight": 5,
   "max_level": 5,
   "min_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 5,
+    "per_level_above_first": 8
   },
   "max_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 25,
+    "per_level_above_first": 8
   },
   "anvil_cost": 5,
   "slots": [
