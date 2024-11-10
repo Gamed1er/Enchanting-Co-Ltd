@@ -5,15 +5,15 @@
   },
   "supported_items": "#minecraft:pickaxes",
   "primary_items": "#minecraft:pickaxes",
-  "weight": 1,
+  "weight": 5,
   "max_level": 5,
   "min_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 5,
+    "per_level_above_first": 9
   },
   "max_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 20,
+    "per_level_above_first": 9
   },
   "anvil_cost": 2,
   "slots": [
@@ -33,7 +33,7 @@
             "location": {
               "position": {
                 "y": {
-                  "min": -64,
+                  "min": -10000,
                   "max": -48
                 }
               }
