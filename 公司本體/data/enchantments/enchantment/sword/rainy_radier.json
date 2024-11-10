@@ -1,42 +1,48 @@
 {
-    "description": {
-      "color": "green",
-    "translate": "enchantment.enchantments.rainy_radier"
-    },
-    "exclusive_set": "enchantments:sword/sunny_radier",
-    "supported_items": "#minecraft:swords",
-    "primary_items": "#minecraft:swords",
-    "weight": 1,
-    "max_level": 5,
-    "min_cost": {
-      "base": 0,
-      "per_level_above_first": 0
-    },
-    "max_cost": {
-      "base": 0,
-      "per_level_above_first": 0
-    },
-    "anvil_cost": 2,
-    "slots": [
-      "mainhand"
-    ],
-    "effects": {
-      "minecraft:damage": [
-        {
-          "effect": {
-            "type": "minecraft:add",
-            "value": {
-              "type": "minecraft:linear",
-              "base": 1,
-              "per_level_above_first": 0.5
-            }
-          },
-          "requirements": {
-            "condition": "minecraft:weather_check",
-            "raining": true
+  "description": {
+    "color": "green",
+    "translate": "enchantment.enchantments.end_radier"
+  },
+  "supported_items": "#minecraft:swords",
+  "primary_items": "#minecraft:swords",
+  "weight": 5,
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.5,
+            "per_level_above_first": 2.5
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": [
+              "minecraft:ender_dragon",
+              "minecraft:enderman",
+              "minecraft:endermite",
+              "minecraft:shulker"
+            ]
           }
         }
-      ]
-    }
+      }
+    ]
   }
-  
+}
