@@ -26,12 +26,11 @@
           "attribute": "minecraft:player.block_interaction_range",
           "amount": {
             "type": "minecraft:linear",
-            "base": 0.375,
-            "per_level_above_first": 0.125
+            "base": 0.5,
+            "per_level_above_first": 0.5
           },
           "operation": "add_value"
         }
       ]
     }
   }
-  
