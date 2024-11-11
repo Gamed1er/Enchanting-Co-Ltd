@@ -1,0 +1,44 @@
+{
+    "description": {
+      "color": "green",
+    "translate": "enchantment.enchantments.the_nether_radier"
+    },
+    "exclusive_set": "enchantments:sword/rainy_radier",
+    "supported_items": "#minecraft:swords",
+    "primary_items": "#minecraft:swords",
+    "weight": 5,
+    "max_level": 5,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 8
+    },
+    "max_cost": {
+      "base": 25,
+      "per_level_above_first": 8
+    },
+    "anvil_cost": 2,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:damage": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 0.8,
+              "per_level_above_first": 0.8
+            }
+          },
+          "requirements": {
+            "condition": "minecraft:location_check",
+            "predicate":{
+              "dimension":"the_nether"
+            }
+          }
+        }
+      ]
+    }
+  }
+  
