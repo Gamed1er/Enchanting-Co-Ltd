@@ -4,8 +4,8 @@
     "translate": "enchantment.enchantments.dark_radier"
     },
     "exclusive_set": "enchantments:sword/bright_radier",
-    "supported_items": "#minecraft:swords",
-    "primary_items": "#minecraft:swords",
+    "supported_items": "#minecraft:enchantable/weapon",
+    "primary_items": "#minecraft:enchantable/sword",
     "weight": 5,
     "max_level": 5,
     "min_cost": {
