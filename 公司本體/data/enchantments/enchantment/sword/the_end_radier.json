@@ -3,7 +3,7 @@
       "color": "green",
     "translate": "enchantment.enchantments.the_end_radier"
     },
-    "exclusive_set": "enchantments:sword/rainy_radier",
+    "exclusive_set": "enchantments:sword/the_nether_radier",
     "supported_items": "#minecraft:swords",
     "primary_items": "#minecraft:swords",
     "weight": 5,
