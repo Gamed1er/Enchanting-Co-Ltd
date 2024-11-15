@@ -13,4 +13,10 @@ execute as @a[scores = {QuestID = 1000..}] run function company:quests/judge/cho
 
 execute as @a[scores= {QuestID = 1..}] unless data entity @s SelectedItem run function system:trigger/quests/hint
 
+#Company Teleport
+execute as @a at @s unless entity @e[tag = to_overworld, distance = ..1.5] unless entity @e[tag = tp_to_company, distance = ..1.5] run scoreboard players set @s CompanyTeleportCooldown 0
+execute as @a at @s if entity @e[tag = to_overworld, distance = ..1.5] run scoreboard players add @s CompanyTeleportCooldown 1
+execute as @a at @s if entity @e[tag = tp_to_company, distance = ..1.5] run scoreboard players add @s CompanyTeleportCooldown 1
+execute as @a[scores = {CompanyTeleportCooldown = 1..}] at @s run function system:tp_to_company
+
 function boss:tick

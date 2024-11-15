@@ -42,6 +42,11 @@ execute as @a run tellraw @s ["",{"translate":"say.load.1","bold":true,"color":"
     scoreboard objectives add BossTrigger trigger "Boss 觸發器"
     scoreboard objectives add BossBreadMasterCoolDown dummy "召喚麵包大俠冷卻時間"
 
+    #Check if dimension spawn
+    execute in company:company run forceload add -1 -1 1 1
+    execute unless entity @e[tag = v1] in company:company positioned 0 0 0 run place template company:company_main/v1
+    execute as @e[tag = v1] run say 【公司建設部】公司已經設立完畢
+    scoreboard objectives add CompanyTeleportCooldown dummy "公司傳送冷卻"
 
     scoreboard objectives add AchievementsKillEnderMan minecraft.killed:enderman "成就-擊殺終界使者"
     scoreboard objectives add AchievementsEatBread dummy "成就-吃麵包"
