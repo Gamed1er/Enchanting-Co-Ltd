@@ -4,7 +4,8 @@
     "name": {
       "translate": "item.enchantments.legendary_bread",
       "color": "gold",
-      "bold": true
+      "bold": true,
+      "italic":false
     }
   },
   {

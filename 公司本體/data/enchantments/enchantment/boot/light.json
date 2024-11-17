@@ -1,6 +1,6 @@
 {
   "description": {
-    "color": "green",
+    "color": "dark_purple",
     "translate": "enchantment.enchantments.light"
   },
   "supported_items": "#taglib:armor/boots",
@@ -14,7 +14,7 @@
     "base": 0,
     "per_level_above_first": 0
   },
-  "anvil_cost": 2,
+  "anvil_cost": 8,
   "slots": [
     "feet"
   ],
