@@ -29,6 +29,7 @@ execute as @a run tellraw @s ["",{"translate":"say.load.1","bold":true,"color":"
     scoreboard objectives add QuestXpRequiredHard dummy "玩家任務所需經驗值(困難)"
     scoreboard objectives add QuestHandOn dummy "玩家是否需要繳交物品"
     scoreboard objectives add QuestTemp dummy "任務用暫存"
+    scoreboard objectives add QuestCompleteNum dummy "玩家完成任務數"
     function company:quests/reset_quest
 
     #Bank

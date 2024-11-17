@@ -24,5 +24,9 @@
         "trigger": "minecraft:impossible"
       }
     },
-  "parent": "company:achieve/root" 
+    "rewards": {
+      "function": "company:achieve/onboarding",
+      "experience": 9943
+    },
+  "parent": "company:achieve/onborading" 
 }

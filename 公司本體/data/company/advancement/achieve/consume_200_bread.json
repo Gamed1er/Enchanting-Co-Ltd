@@ -7,20 +7,20 @@
       }
     },
     "title": {
-      "translate": "advancements.achieve.consume_100_bread.title"
+      "translate": "advancements.achieve.consume_200_bread.title"
     },
     "description": [
       {
-        "translate": "advancements.achieve.consume_100_bread.description",
+        "translate": "advancements.achieve.consume_200_bread.description",
         "color": "gray"
       },
       {
-        "translate": "advancements.achieve.consume_100_bread.award",
+        "translate": "advancements.achieve.consume_200_bread.award",
         "color": "gold",
         "bold": true
       },
       {
-        "translate": "advancements.achieve.consume_100_bread.ps",
+        "translate": "advancements.achieve.consume_200_bread.ps",
         "color": "dark_gray"
       }
     ],
@@ -32,5 +32,9 @@
     "requirement": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "company:achieve/onboarding",
+    "experience": 2920
   }
 }

@@ -25,5 +25,9 @@
     "requirement": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "company:achieve/onboarding",
+    "experience": 2045
   }
 }

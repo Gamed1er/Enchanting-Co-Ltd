@@ -6,3 +6,5 @@ scoreboard players add @s BankLapisCount 50
 loot give @s loot company:quests/1105
 scoreboard players set @s QuestJudgmental 0
 scoreboard players set @s QuestID -1
+
+function company:quests/message/complete/count

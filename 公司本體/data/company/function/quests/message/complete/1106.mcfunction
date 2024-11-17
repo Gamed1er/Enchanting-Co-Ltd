@@ -7,3 +7,5 @@ loot give @s loot company:quests/1106
 scoreboard players set @s QuestJudgmental 0
 scoreboard players set @s QuestID -1
 scoreboard players set @s QuestHandOn 0
+
+function company:quests/message/complete/count

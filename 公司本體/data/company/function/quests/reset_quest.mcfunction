@@ -30,5 +30,6 @@ advancement revoke @a only company:quests/2101
 scoreboard players set 1105 QuestRequirements 12
 scoreboard objectives add QuestMakingBread crafted:bread
 
-#十
 scoreboard players set 1106 QuestRequirements 5
+
+scoreboard players set 2102 QuestRequirements 1

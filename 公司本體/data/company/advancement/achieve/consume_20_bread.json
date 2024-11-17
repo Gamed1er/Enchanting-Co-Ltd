@@ -20,10 +20,14 @@
     "background": "minecraft:textures/block/white_concrete.png",
     "frame": "task"
   },
-  "parent": "company:achieve/root",
+  "parent": "company:achieve/onborading",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "company:achieve/onboarding",
+    "experience": 1395
   }
 }

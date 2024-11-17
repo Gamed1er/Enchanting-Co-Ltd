@@ -21,7 +21,7 @@ execute if score @s BossVariable1 matches 1 as @a[gamemode = spectator] run tag 
 
 execute as @e[tag = BreadMasterTarget] run playsound entity.player.attack.crit master @a[distance=..32] ~ ~ ~ 1.0 1.2 0.1
 execute as @e[tag = BreadMasterTarget] run damage @s 6 arrow at ~ ~ ~ 
-execute as @e[tag = BreadMasterTarget] run effect give @n hunger 1200 5 false
+execute as @e[tag = BreadMasterTarget] run effect give @s hunger 1200 5 false
 execute as @e[tag = BreadMasterTarget] run tag @s remove BreadMasterTarget
 
 

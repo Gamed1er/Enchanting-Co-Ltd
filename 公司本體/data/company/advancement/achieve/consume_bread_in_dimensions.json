@@ -1,0 +1,126 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bread",
+      "components": {
+        "minecraft:custom_model_data": 1
+      }
+    },
+    "title": "穿梭於維度間的麵包",
+    "description": [
+      {
+        "text": "在主世界、地獄、終界和公司四個維度食用法棍",
+        "color": "gray"
+      },
+      {
+        "text": "\n獲得 \"飢餓反擊 IV\" 和 2500 青金石",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "company:achieve/consume_100_bread",
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bread",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:other/legendary_bread",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "nether": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bread",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:other/legendary_bread",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "end": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bread",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:other/legendary_bread",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "company": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "company:company"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bread",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:other/legendary_bread",
+                "levels": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "company:achieve/consume_bread_in_dimensions",
+    "experience": 5345
+  }
+}
