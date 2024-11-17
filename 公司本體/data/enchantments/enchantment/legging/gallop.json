@@ -1,4 +1,3 @@
-
 {
   "description": {
     "color": "dark_purple",
@@ -25,13 +24,14 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "enchantments:legging/gallop"
+          "function": "enchantments:legging/add_speed"
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
-          "predicate": {
-            "flags": {
+          "predicate":{
+            "flags":
+            {
               "is_sprinting": true
             }
           }
