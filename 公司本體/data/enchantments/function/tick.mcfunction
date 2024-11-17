@@ -5,3 +5,4 @@ scoreboard players set @a[predicate= ! enchantments:is_hand_vampire, tag = !Vamp
 execute as @a[tag = Vampire] run function enchantments:universal/vampire
 
 execute as @a store result score @s EnchantmentsHunger run data get entity @s foodLevel 1
+execute as @e run attribute @s[predicate=enchantments:leggings/gallop] minecraft:generic.movement_speed modifier remove 1783965
