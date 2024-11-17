@@ -108,5 +108,8 @@
     "say.food_beggar.2":"別餓壞了，吃飽才是工作的本錢。",
     "say.food_beggar.3":"我媽媽說，不好好讀書將來只能在這裡乞討。",
     "say.food_beggar.4":"這些食物你拿去吧，順便幫我積點功德。",
-    "say.food_beggar.5":"嘖嘖，你還真可憐啊，拿去吃吧。"
+    "say.food_beggar.5":"嘖嘖，你還真可憐啊，拿去吃吧。",
+    "npc.mission.1.name":"凱瑟琳",
+    "npc.worker.1.name":"哈薩客",
+    "npc.worker.2.name":"步行者"
 }

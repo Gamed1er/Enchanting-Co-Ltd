@@ -12,7 +12,7 @@ execute if score @s BossSkillCoolDown1 matches -100 run execute at @e[type = #bo
 execute if score @s BossSkillCoolDown1 matches -100 run effect give @a[nbt = {active_effects : [{id:"minecraft:hunger"}]}, distance = ..32] nausea 10 0 true
 execute if score @s BossSkillCoolDown1 matches -100 run effect give @a[nbt = {active_effects : [{id:"minecraft:hunger"}]}, distance = ..32] slowness 10 1 true
 execute if score @s BossSkillCoolDown1 matches -100 run effect give @a[nbt = {active_effects : [{id:"minecraft:hunger"}]}, distance = ..32] blindness 10 0 true
-execute if score @s BossSkillCoolDown1 matches -100 run tp @p[distance = ..32, nbt = !{playerGameType:1}] ~ ~2 ~
+execute if score @s BossSkillCoolDown1 matches -100 run tp @p[distance = ..32, gamemode = !creative, gamemode = !spectator] ~ ~2 ~
 
 execute if score @s BossSkillCoolDown1 matches -100 run playsound entity.lightning_bolt.thunder master @a[distance = ..128]
 
