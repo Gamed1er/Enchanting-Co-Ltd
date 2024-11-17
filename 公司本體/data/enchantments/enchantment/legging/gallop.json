@@ -24,7 +24,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "enchantments:legging/add_speed"
+          "function": "enchantments:legging/gallop"
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
