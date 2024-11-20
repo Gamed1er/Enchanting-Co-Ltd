@@ -112,5 +112,15 @@
     "say.food_beggar.5":"啧啧，你还真可怜啊，拿去吃吧。",
     "npc.mission.1.name":"凱瑟琳",
     "npc.worker.1.name":"哈薩客",
-    "npc.worker.2.name":"步行者"
+    "npc.worker.2.name":"步行者",
+    "story.mission.1.murmur":"向着星辰...",
+    "story.mission.1.introduce.1":"是新来的员工吗，你好。",
+    "story.mission.1.introduce.2":"这里是附魔有限公司的任务板。",
+    "story.mission.1.introduce.3_0":"你可以点击旁边的","story.mission.1.introduce.3_1":" 告示牌 ","story.mission.1.introduce.3_2":"来接受任务。",
+    "story.mission.1.introduce.4_0":"任务分为","story.mission.1.introduce.4_1":" 简单","story.mission.1.introduce.4_2":"、","story.mission.1.introduce.4_3":" 中等","story.mission.1.introduce.4_4":" 和困难 ","story.mission.1.introduce.4_5":"三种类型。",
+    "story.mission.1.introduce.5":"每次接受任务都会消耗经验值。",
+    "story.mission.1.introduce.6":"消耗的经验值会随着接受任务的次数和难度增加。",
+    "story.mission.1.introduce.7":"任务的花費每 20 分钟刷新一次。",
+    "story.mission.1.introduce.8_0":"完成任务可以获得","story.mission.1.introduce.8_1":" 青金石","story.mission.1.introduce.8_2":"和","story.mission.1.introduce.8_3":" 附魔书","story.mission.1.introduce.8_4":"作为奖励。",
+    "story.mission.1.introduce.9":"完成更多任务，获取不同的附魔吧！"
 }

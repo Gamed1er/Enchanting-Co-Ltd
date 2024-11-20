@@ -1,0 +1,2 @@
+execute if score @s StoryPlayerTime matches 40 run tellraw @s [{"text": "[","color": "dark_purple"},{"translate":"npc.mission.1.name", "color":"dark_purple"},{"text": "] : ","color": "dark_purple"},{"translate": "story.mission.1.murmur", "color": "gray"}]
+execute if score @s StoryPlayerTime matches 40 run playsound entity.villager.trade

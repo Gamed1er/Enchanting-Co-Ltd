@@ -112,5 +112,16 @@
     "say.food_beggar.5":"Tsk tsk, you are so pitiful, take it and eat it.。",
     "npc.mission.1.name":"Katheryne",
     "npc.worker.1.name":"Tetw",
-    "npc.worker.2.name":"WalkMan"
+    "npc.worker.2.name":"WalkMan",
+    "story.mission.1.murmur":"Towards the stars...",
+    "story.mission.1.introduce.1":"Are you the new employee? Hello.",
+    "story.mission.1.introduce.2":"This is the mission board of the Enchantment Co., Ltd.",
+    "story.mission.1.introduce.3_0":"You can press the","story.mission.1.introduce.3_1":" sign ","story.mission.1.introduce.3_2":"next to you to accept missions.",
+    "story.mission.1.introduce.4_0":"Missions are divided into","story.mission.1.introduce.4_1":" Easy","story.mission.1.introduce.4_2":",","story.mission.1.introduce.4_3":" Medium","story.mission.1.introduce.4_4":" Hard ","story.mission.1.introduce.4_5":"categories.",
+    "story.mission.1.introduce.5":"Each acceptance will consume experience points.",
+    "story.mission.1.introduce.6":"This amount will increase with the number of missions accepted and their difficulty.",
+    "story.mission.1.introduce.7":"Missions's cost refresh every 20 minutes.",
+    "story.mission.1.introduce.8_0":"Completing missions will reward you with","story.mission.1.introduce.8_1":" lapis lazuli","story.mission.1.introduce.8_2":" and","story.mission.1.introduce.8_3":" enchanted books","story.mission.1.introduce.8_4":" as rewards.",
+    "story.mission.1.introduce.9":"Complete many missions to obtain different enchantments!"
+
 }

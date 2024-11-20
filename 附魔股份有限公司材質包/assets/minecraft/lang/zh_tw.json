@@ -110,7 +110,19 @@
     "say.food_beggar.3":"我媽媽說，不好好讀書將來只能在這裡乞討。",
     "say.food_beggar.4":"這些食物你拿去吧，順便幫我積點功德。",
     "say.food_beggar.5":"嘖嘖，你還真可憐啊，拿去吃吧。",
-    "npc.mission.1.name":"凱瑟琳",
+    
     "npc.worker.1.name":"哈薩客",
-    "npc.worker.2.name":"步行者"
+    "npc.worker.2.name":"步行者",
+
+    "npc.mission.1.name":"凱瑟琳",
+    "story.mission.1.murmur":"向著星...",
+    "story.mission.1.introduce.1":"是新來的員工嗎，你好",
+    "story.mission.1.introduce.2":"這裡是附魔有限股份公司的任務版",
+    "story.mission.1.introduce.3_0":"你可以按旁邊的","story.mission.1.introduce.3_1":" 告示牌 ","story.mission.1.introduce.3_2":"來承接任務",
+    "story.mission.1.introduce.4_0":"任務分為","story.mission.1.introduce.4_1":" 簡單","story.mission.1.introduce.4_2":"、","story.mission.1.introduce.4_3":"中等","story.mission.1.introduce.4_4":"困難 ","story.mission.1.introduce.4_5":"三種",
+    "story.mission.1.introduce.5":"每一次承接都會花費經驗值",
+    "story.mission.1.introduce.6":"這個量值會隨著承接次數和難度而提升",
+    "story.mission.1.introduce.7":"任務的花費每 20 分鐘會刷新一次",
+    "story.mission.1.introduce.8_0":"完成任務會獲得","story.mission.1.introduce.8_1":"青金石","story.mission.1.introduce.8_2":"和","story.mission.1.introduce.8_3":"附魔書","story.mission.1.introduce.8_4":"作為獎勵",
+    "story.mission.1.introduce.9":"完成很多任務，來獲得不同的附魔吧"
 }

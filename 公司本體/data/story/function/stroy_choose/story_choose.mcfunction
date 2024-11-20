@@ -1,0 +1,1 @@
+execute if score @s StoryId matches 1..16 run function story:stroy_choose/1_16
