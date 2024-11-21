@@ -122,5 +122,28 @@
     "story.mission.1.introduce.6":"消耗的经验值会随着接受任务的次数和难度增加。",
     "story.mission.1.introduce.7":"任务的花費每 20 分钟刷新一次。",
     "story.mission.1.introduce.8_0":"完成任务可以获得","story.mission.1.introduce.8_1":" 青金石","story.mission.1.introduce.8_2":"和","story.mission.1.introduce.8_3":" 附魔书","story.mission.1.introduce.8_4":"作为奖励。",
-    "story.mission.1.introduce.9":"完成更多任务，获取不同的附魔吧！"
+    "story.mission.1.introduce.9":"完成更多任务，获取不同的附魔吧！",
+
+    
+    "story.worker.1.murmur_0":"你知道吗 ? 有些附魔书可以用合成台合成喔",
+    "story.worker.1.murmur_1":"闲着没事的话去看看配方表吧。",
+    "story.worker.1.map_making.1":"嘿，是新来的员工啊。",
+    "story.worker.1.map_making.2":"跟你说哦，我来到这个公司以前，曾经是个的地图制作者。",
+    "story.worker.1.map_making.3":"但是我已经很久没有做地图了。",
+    "story.worker.1.map_making.4":"我想要重温制作地图的感觉。",
+    "story.worker.1.map_making.5_0":"你可以帮我带回","story.worker.1.map_making.5_1":" 五份地图 ","story.worker.1.map_making.5_2":"吗？",
+    "story.worker.1.map_making2.1":"你拿回地图了吗？",
+    "story.worker.1.map_making2.2_0":"我总共需要","story.worker.1.map_making2.2_1":" 五份地图 ","story.worker.1.map_making2.2_2":"。",
+    "story.worker.1.map_making2.3_0":"( 提示 : 请手持五份地图再和 ","story.worker.1.map_making2.3_2":" 对话 )",
+    "story.worker.1.map_making3.1":"欧太棒了！",
+"story.worker.1.map_making3.2":"这就是我需要的东西。",
+"story.worker.1.map_making3.3":"让我展现我的才华吧。",
+"story.worker.1.map_making3.4":"( 一阵乒乒乓乓的制作声 )",
+"story.worker.1.map_making3.5_0":"好了，这就是我的杰作了。",
+"story.worker.1.map_making3.5_1":" 【地图网址连结】",
+"story.worker.1.map_making3.6_0":"希望你会喜欢。",
+"story.worker.1.map_making3.6_1":"\n( 任务结束！获得 ","story.worker.1.map_making3.6_2":"125 青金石","story.worker.1.map_making3.6_3":" 和 ","story.worker.1.map_making3.6_4":"被动式收入 I","story.worker.1.map_making3.6_5":" )"
+
+
+
 }

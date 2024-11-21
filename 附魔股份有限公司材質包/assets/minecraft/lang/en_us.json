@@ -122,6 +122,27 @@
     "story.mission.1.introduce.6":"This amount will increase with the number of missions accepted and their difficulty.",
     "story.mission.1.introduce.7":"Missions's cost refresh every 20 minutes.",
     "story.mission.1.introduce.8_0":"Completing missions will reward you with","story.mission.1.introduce.8_1":" lapis lazuli","story.mission.1.introduce.8_2":" and","story.mission.1.introduce.8_3":" enchanted books","story.mission.1.introduce.8_4":" as rewards.",
-    "story.mission.1.introduce.9":"Complete many missions to obtain different enchantments!"
+    "story.mission.1.introduce.9":"Complete many missions to obtain different enchantments!",
+
+    "story.worker.1.murmur_0":"Did you know? Some enchanted books can be synthesized using a crafting table",
+    "story.worker.1.murmur_1":"Go check out the recipe table if you want.",
+    "story.worker.1.map_making.1":"Hey, are you the new employee?",
+    "story.worker.1.map_making.2":"Before joining this company, I was actually a skilled map maker.",
+    "story.worker.1.map_making.3":"But it has been a long time since I made any maps.",
+    "story.worker.1.map_making.4":"I want to relive the joy of creating maps.",
+    "story.worker.1.map_making.5_0":"Can you bring","story.worker.1.map_making.5_1":" five maps ","story.worker.1.map_making.5_2":" for me?",
+    "story.worker.1.map_making2.1":"Did you bring back the maps?",
+    "story.worker.1.map_making2.2_0":"I need","story.worker.1.map_making2.2_1":" five maps ","story.worker.1.map_making2.2_2":"in total.",
+    "story.worker.1.map_making2.3_0":"( Hint: Hold five maps before talking to ","story.worker.1.map_making2.3_2":" )",
+        "story.worker.1.map_making3.1":"Oh, amazing!",
+    "story.worker.1.map_making3.2":"This is exactly what I needed.",
+    "story.worker.1.map_making3.3":"Let me show my talent.",
+    "story.worker.1.map_making3.4":"( A burst of clanging sounds )",
+    "story.worker.1.map_making3.5_0":"Done, here is my map.",
+    "story.worker.1.map_making3.5_1":" [ Map URL link ]",
+    "story.worker.1.map_making3.6_0":"Hope you like it.",
+    "story.worker.1.map_making3.6_1":"\n( Mission complete! Earned ","story.worker.1.map_making3.6_2":"125 Lapis Lazuli","story.worker.1.map_making3.6_3":" and ","story.worker.1.map_making3.6_4":"Passive Income I","story.worker.1.map_making3.6_5":" )"
+
+
 
 }

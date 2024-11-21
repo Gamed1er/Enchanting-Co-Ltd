@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "temp":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
