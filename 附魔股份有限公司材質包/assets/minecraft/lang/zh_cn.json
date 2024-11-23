@@ -136,14 +136,39 @@
     "story.worker.1.map_making2.2_0":"我总共需要","story.worker.1.map_making2.2_1":" 五份地图 ","story.worker.1.map_making2.2_2":"。",
     "story.worker.1.map_making2.3_0":"( 提示 : 请手持五份地图再和 ","story.worker.1.map_making2.3_2":" 对话 )",
     "story.worker.1.map_making3.1":"欧太棒了！",
-"story.worker.1.map_making3.2":"这就是我需要的东西。",
-"story.worker.1.map_making3.3":"让我展现我的才华吧。",
-"story.worker.1.map_making3.4":"( 一阵乒乒乓乓的制作声 )",
-"story.worker.1.map_making3.5_0":"好了，这就是我的杰作了。",
-"story.worker.1.map_making3.5_1":" 【地图网址连结】",
-"story.worker.1.map_making3.6_0":"希望你会喜欢。",
-"story.worker.1.map_making3.6_1":"\n( 任务结束！获得 ","story.worker.1.map_making3.6_2":"125 青金石","story.worker.1.map_making3.6_3":" 和 ","story.worker.1.map_making3.6_4":"被动式收入 I","story.worker.1.map_making3.6_5":" )"
+    "story.worker.1.map_making3.2":"这就是我需要的东西。",
+    "story.worker.1.map_making3.3":"让我展现我的才华吧。",
+    "story.worker.1.map_making3.4":"( 一阵乒乒乓乓的制作声 )",
+    "story.worker.1.map_making3.5_0":"好了，这就是我的杰作了。",
+    "story.worker.1.map_making3.5_1":" 【地图网址连结】",
+    "story.worker.1.map_making3.6_0":"希望你会喜欢。",
+    "story.worker.1.map_making3.6_1":"\n( 任务结束！获得 ","story.worker.1.map_making3.6_2":"125 青金石","story.worker.1.map_making3.6_3":" 和 ","story.worker.1.map_making3.6_4":"被动式收入 I","story.worker.1.map_making3.6_5":" )"
+,
+    "story.worker.2.map_making1.1":"哈囉！跟隔壁那位一样我也是地图製作的专家",
+    "story.worker.2.map_making1.2":"但我有很多爆炸性艺术以及充满着「欢愉」的智障想法",
+    "story.worker.2.map_making1.3":"比如说，要不我们在这张地图放超多 WalkMan467 人偶，然后他会发射雷射光随后爆炸喷出彩带",
+    "story.worker.2.map_making1.4":"或者我们可以製作一个 WalkMan467 人偶 BOSS 然后他会变成飞机撞飞看到的玩家",
+    "story.worker.2.map_making1.5":"什麽是欢愉？",
+    "story.worker.2.map_making1.6":"我！就 是 欢 愉",
+    "story.worker.2.map_making1.7_0":"阿","story.worker.2.map_making1.7_1":"哈","story.worker.2.map_making1.7_2":"哈(逐渐癫狂)",
+    "story.worker.2.map_making1.8_0":"痾， ","story.worker.2.map_making1.8_1":"  别担心，他只是崩铁玩太多了",
+    "story.worker.2.map_making1.9_0":"你只要拿 ","story.worker.2.map_making1.9_1":"5 个 TNT","story.worker.2.map_making1.9_2":" 给他，他就会给你展示「欢愉」的杰作",
+    "story.worker.2.map_making1.10":"( 他的意思应该是这样吧... )",
 
+    "story.worker.2.map_making2.1":"你怎么不理我了，那我可要 ~ 原地去世喽",
+    "story.worker.2.map_making2.2":"( 蹦 ~ 啊 ~ )",
+    "story.worker.2.map_making2.3":"呃，你别慌",
+    "story.worker.2.map_making2.4":"他等等就会回来了",
+    "story.worker.2.map_making2.5":"你还是拿 ","story.worker.2.map_making2.6":"5 个 TNT","story.worker.2.map_making2.7":" 给他吧，不然他等等要继续装死了",
+    "story.worker.2.map_making2.8":"( 提示 : 请手持五个 TNT 再跟 ","story.worker.2.map_making2.9":"npc.worker2.name","story.worker.2.map_making2.10":" 对话 )",
+
+    "story.worker.2.map_making3.1":"哈哈哈",
+    "story.worker.2.map_making3.2":"我们来找点乐子吧！",
+    "story.worker.2.map_making3.3":"( 不出片刻，你脑海中立刻出现了一份地图的链接 )",
+    "story.worker.2.map_making3.4":"【:crossed_swords:Apocalypse of the Elemental Blades:crossed_swords: 】",
+    "story.worker.2.map_making3.5_0":"( 任务结束！获得 ","story.worker.2.map_making3.5_1":"125 青金石","story.worker.2.map_making3.5_2":" 和 ","story.worker.2.map_making3.5_3":"经验战士 II","story.worker.2.map_making3.5_4":" )",
+
+    "story.worker.2.murmur":"好戏开场 ~"
 
 
 }

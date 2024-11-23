@@ -45,7 +45,7 @@ execute as @a run tellraw @s ["",{"translate":"say.load.1","bold":true,"color":"
 
     #Check if dimension spawn
     execute in company:company run forceload add -1 -1 1 1
-    execute unless entity @e[tag = v2] as @e[type = !player] if dimension company:company run kill @s
+    execute unless entity @e[tag = v2] in company:company positioned 0 0 0 as @e[type = !player, distance = 0..] run kill @s
     execute unless entity @e[tag = v2] in company:company positioned 0 0 0 run place template company:company_main/v2
     execute as @e[tag = v2] run say 【公司建設部】公司已經設立完畢
     scoreboard objectives add CompanyTeleportCooldown dummy "公司傳送冷卻"

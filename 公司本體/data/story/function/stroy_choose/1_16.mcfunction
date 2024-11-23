@@ -4,3 +4,7 @@ execute if score @s StoryId matches 3 run function story:worker1/map_making_1
 execute if score @s StoryId matches 4 run function story:worker1/map_making_2
 execute if score @s StoryId matches 5 run function story:worker1/map_making_3
 execute if score @s StoryId matches 6 run function story:worker1/murmur
+execute if score @s StoryId matches 7 run function story:worker2/map_making_1
+execute if score @s StoryId matches 8 run function story:worker2/map_making_2
+execute if score @s StoryId matches 9 run function story:worker2/map_making_3
+execute if score @s StoryId matches 10 run function story:worker2/murmur

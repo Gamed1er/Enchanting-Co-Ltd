@@ -1,0 +1,3 @@
+execute if score @s StoryPlayerTime matches 40 run tellraw @s [{"text": "[","color": "dark_purple"},{"translate":"npc.worker.2.name", "color":"dark_purple"},{"text": "] : ","color": "dark_purple"},{"translate": "story.worker.2.murmur", "color": "gray"}]
+execute if score @s StoryPlayerTime matches 40 at @p run summon creeper ~ ~ ~ {Invulnerable:true,ExplosionRadius:0b,Fuse:30,ignited:1b,powered:true}
+execute if score @s StoryPlayerTime matches 40 run playsound entity.villager.celebrate
