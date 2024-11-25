@@ -12,6 +12,11 @@
     "enchantments:sword/bright_radier",
     "enchantments:sword/the_nether_radier",
     "enchantments:sword/overworld_radier",
-    "enchantments:sword/the_end_radier"
+    "enchantments:sword/the_end_radier",
+    "enchantments:sword/beast_radier",
+    "enchantments:sword/boss_radier",
+    "enchantments:sword/cube_radier",
+    "enchantments:sword/element_radier",
+    "enchantments:sword/illager_radier",
   ]
 }
