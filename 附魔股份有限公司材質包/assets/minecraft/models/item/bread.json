@@ -1,5 +1,5 @@
 {
-  "parent": "item/handheld",
+  "parent": "item/generated",
   "texture_size": [16, 16],
   "textures": {
     "layer0": "item/bread"
