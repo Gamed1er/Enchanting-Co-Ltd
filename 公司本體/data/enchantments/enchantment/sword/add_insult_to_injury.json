@@ -1,0 +1,43 @@
+{
+  "description": {
+    "color": "blue",
+    "translate": "enchantment.enchantments.add_insult_to_injury"
+  },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 4
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+          "nbt": "{TicksFrozen:140}"
+          }
+      }
+      }
+    ]
+  }
+}

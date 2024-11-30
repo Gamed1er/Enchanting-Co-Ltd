@@ -1,0 +1,45 @@
+{
+  "description": {
+    "color": "blue",
+    "translate": "enchantment.enchantments.add_fuel_to_fire"
+  },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 4
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_on_fire": true
+            }
+          }
+        }
+      }
+    ]
+  }
+}
