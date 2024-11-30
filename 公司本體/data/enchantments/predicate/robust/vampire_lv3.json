@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": "#enchantments:weapons",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:robust/vampire",
+                "levels": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+  

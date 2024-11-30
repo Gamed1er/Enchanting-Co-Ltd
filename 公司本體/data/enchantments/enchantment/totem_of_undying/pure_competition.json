@@ -21,14 +21,7 @@
       "offhand","mainhand"
     ],
     "effects": {
-      "tick": [
-        {
-          "effect": {
-            "type": "minecraft:run_function",
-            "function": "enchantments:totem_of_undying/pure_competition"
-          }
-        }
-      ]
+
     }
   }
   

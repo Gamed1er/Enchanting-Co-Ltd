@@ -1,8 +1,4 @@
 scoreboard objectives add Temp dummy
-scoreboard objectives add MineStone minecraft.mined:minecraft.stone
-scoreboard objectives add MineDeepslate minecraft.mined:minecraft.deepslate
-scoreboard objectives add StoneMarrow dummy
-scoreboard objectives add MineOakLog minecraft.mined:oak_log
 
 scoreboard objectives add EnchantmentsQuickFishing dummy
 scoreboard objectives add EnchantmentsLavaFisher dummy

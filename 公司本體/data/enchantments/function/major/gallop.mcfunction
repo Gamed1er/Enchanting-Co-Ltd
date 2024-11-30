@@ -1,0 +1,6 @@
+attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:major/gallop":1}}}}]}] movement_speed modifier add 1783965 0.15 add_multiplied_base
+attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:major/gallop":2}}}}]}] movement_speed modifier add 1783965 0.30 add_multiplied_base
+attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:major/gallop":3}}}}]}] movement_speed modifier add 1783965 0.45 add_multiplied_base
+attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:major/gallop":4}}}}]}] movement_speed modifier add 1783965 0.60 add_multiplied_base
+attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:major/gallop":5}}}}]}] movement_speed modifier add 1783965 0.75 add_multiplied_base
+attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:major/gallop":6}}}}]}] movement_speed modifier add 1783965 0.90 add_multiplied_base

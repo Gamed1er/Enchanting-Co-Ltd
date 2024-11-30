@@ -34,7 +34,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "enchantments:helmet/night_sight"
+              "options": "enchantments:robust/night_sight"
             }
           ],
           "name": "minecraft:book",

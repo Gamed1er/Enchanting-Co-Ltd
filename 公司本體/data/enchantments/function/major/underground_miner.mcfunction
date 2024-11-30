@@ -1,0 +1,6 @@
+execute if predicate enchantments:major/undergound_miner run attribute @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{levels:{"enchantments:major/underground_miner":1}}}}}] mining_efficiency modifier add 5904845092 10 add_value
+execute if predicate enchantments:major/undergound_miner run attribute @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{levels:{"enchantments:major/underground_miner":2}}}}}] mining_efficiency modifier add 5904845092 20.0 add_value
+execute if predicate enchantments:major/undergound_miner run attribute @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{levels:{"enchantments:major/underground_miner":3}}}}}] mining_efficiency modifier add 5904845092 30.0 add_value
+execute if predicate enchantments:major/undergound_miner run attribute @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{levels:{"enchantments:major/underground_miner":4}}}}}] mining_efficiency modifier add 5904845092 40.0 add_value
+execute if predicate enchantments:major/undergound_miner run attribute @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{levels:{"enchantments:major/underground_miner":5}}}}}] mining_efficiency modifier add 5904845092 50.0 add_value
+

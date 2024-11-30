@@ -1,0 +1,29 @@
+{
+    "description": [{"text": "⛒ "},{"translate": "enchantment.enchantments.vampire"}],
+    "supported_items": "#enchantments:weapons",
+    "weight": 1,
+    "max_level": 5,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 5,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "enchantments:robust/vampire"
+          }
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,84 @@
+{
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "rod": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:major/quick_fishing"
+              }
+            ]
+          }
+        },
+        "item": {
+          "items": "minecraft:cod"
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "rod": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:major/quick_fishing"
+              }
+            ]
+          }
+        },
+        "item": {
+          "items": "minecraft:pufferfish"
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "rod": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:major/quick_fishing"
+              }
+            ]
+          }
+        },
+        "item": {
+          "items": "minecraft:salmon"
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "rod": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:major/quick_fishing"
+              }
+            ]
+          }
+        },
+        "item": {
+          "items": "minecraft:tropical_fish"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cod",
+      "tropical_fish",
+      "pufferfish",
+      "salmon"
+    ]
+  ],
+  "rewards": {
+    "function": "enchantments:major/quick_fishing"
+  },
+  "sends_telemetry_event": true
+}

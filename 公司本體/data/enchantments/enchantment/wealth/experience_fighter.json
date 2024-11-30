@@ -1,0 +1,33 @@
+{
+  "description": [{"text":"€ "},{"translate": "enchantment.enchantments.fighter"}],
+  "supported_items": "#minecraft:swords",
+  "primary_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ]
+  }
+}

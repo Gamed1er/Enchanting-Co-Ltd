@@ -1,0 +1,43 @@
+{
+  "description": [{"text":"⚒ "},{"translate": "enchantment.enchantments.underground_miner"}],
+  "supported_items": "#minecraft:pickaxes",
+  "primary_items": "#minecraft:pickaxes",
+  "weight": 5,
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments:major/underground_miner"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": -10000,
+                  "max": -48
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

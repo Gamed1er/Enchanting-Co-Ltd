@@ -1,0 +1,42 @@
+{
+  "description": [{"text": "⚒ "},{"translate": "enchantment.enchantments.light"}],
+  "supported_items": "#taglib:armor/boots",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "943748764",
+        "attribute": "movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.025,
+          "per_level_above_first": 0.025
+        },
+        "operation": "add_multiplied_base"
+      },
+      {
+        "id": "9687089608",
+        "attribute": "gravity",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.025,
+          "per_level_above_first": -0.025
+        },
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}

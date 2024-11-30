@@ -1,3 +1,0 @@
-attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:legging/gallop":1}}}}]}] minecraft:generic.movement_speed modifier add 1783965 0.2 add_multiplied_base
-attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:legging/gallop":2}}}}]}] minecraft:generic.movement_speed modifier add 1783965 0.4 add_multiplied_base
-attribute @s[nbt={Inventory:[{Slot: 101b,components:{"minecraft:enchantments":{levels:{"enchantments:legging/gallop":3}}}}]}] minecraft:generic.movement_speed modifier add 1783965 0.6 add_multiplied_base

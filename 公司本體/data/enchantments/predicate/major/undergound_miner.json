@@ -1,0 +1,24 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "location": {
+        "position": {
+          "y": {
+            "max": -48
+          }
+        }
+      },
+      "equipment": {
+        "mainhand": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "enchantments:major/underground_miner"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }

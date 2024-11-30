@@ -31,13 +31,13 @@
     "minecraft:attributes": [
       {
         "id": "27805706786097",
-        "attribute": "minecraft:player.entity_interaction_range",
+        "attribute": "entity_interaction_range",
         "amount": 2,
         "operation": "add_value"
       },
       {
         "id": "270787806",
-        "attribute": "minecraft:generic.attack_damage",
+        "attribute": "attack_damage",
         "amount": 4,
         "operation": "add_value"
       }

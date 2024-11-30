@@ -11,52 +11,10 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:efficiency": {
+                "enchantments:major/apple_lover": {
                   "min": 1,
                   "max": 3
                 }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 33,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "enchantments:axe/apple_lover": {
-                  "min": 1,
-                  "max": 3
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 33,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "enchantments:axe/experience_lumberjack":1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "mending": 1
               }
             }
           ]

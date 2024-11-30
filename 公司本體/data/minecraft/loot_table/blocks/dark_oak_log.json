@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "enchantments:axe/apple_lover"
+                  "enchantments": "enchantments:major/apple_lover"
                 }
               ]
             }
@@ -38,7 +38,7 @@
         },
         {
           "condition": "minecraft:table_bonus",
-          "enchantment": "enchantments:axe/apple_lover",
+          "enchantment": "enchantments:major/apple_lover",
           "chances": [
             0,
             0.02,

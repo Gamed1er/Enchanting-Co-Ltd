@@ -1,0 +1,38 @@
+{
+  "description": [{"text":"⚒ "},{"translate": "enchantment.enchantments.gallop"}],
+  "supported_items": "#taglib:armor/leggings",
+  "weight": 1,
+  "max_level": 6,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "legs"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "enchantments:major/gallop"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate":{
+            "flags":
+            {
+              "is_sprinting": true
+            }
+          }
+        }
+      }
+    ]
+  }
+}

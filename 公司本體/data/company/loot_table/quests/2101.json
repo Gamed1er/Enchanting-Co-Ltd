@@ -6,57 +6,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 33,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:sharpness": {
-                  "min": 2,
-                  "max": 4
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 33,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "enchantments:sword/day_radier": {
-                  "min": 2,
-                  "max": 4
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 33,
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "enchantments:sword/experience_fighter": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "mending": 1
+                "enchantments:sword/experience_fighter": 2
               }
             }
           ]

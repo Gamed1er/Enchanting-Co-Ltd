@@ -36,11 +36,6 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:air",
-          "weight": 9
         }
       ],
       "conditions": [
@@ -56,6 +51,10 @@
               "minecraft:fire_resistance": {}
             }
           }
+        },
+        {
+          "condition": "random_chance",
+          "chance": 0.1
         }
       ]
     },
