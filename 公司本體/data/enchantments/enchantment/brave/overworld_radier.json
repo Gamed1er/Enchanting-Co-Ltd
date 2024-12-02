@@ -1,9 +1,6 @@
 {
-    "description": {
-      "color": "green",
-    "translate": "enchantment.enchantments.the_nether_radier"
-    },
-    "exclusive_set": "enchantments:sword/overworld_radier",
+    "description": [{"text":"⚔ "},{"translate": "enchantment.enchantments.overworld_radier"}],
+    "exclusive_set": ["enchantments:brave/the_nether_radier", "enchantments:brave/the_end_radier"],
     "supported_items": "#minecraft:enchantable/weapon",
     "primary_items": "#minecraft:enchantable/sword",
     "weight": 5,
@@ -34,7 +31,7 @@
           "requirements": {
             "condition": "minecraft:location_check",
             "predicate":{
-              "dimension":"the_nether"
+              "dimension":"overworld"
             }
           }
         }

@@ -3,6 +3,7 @@
         "#minecraft:swords",
         "#minecraft:axes",
         "mace",
-        "trident"
+        "trident",
+        "bread"
     ]
 }
