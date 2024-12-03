@@ -1,8 +1,8 @@
 {
   "description": [{"text":"⚒ "},{"translate": "enchantment.enchantments.walk_up"}],
-  "supported_items": "#taglib:armor/leggings",
+  "supported_items": "#taglib:armor/boots",
   "weight": 1,
-  "max_level": 1,
+  "max_level": 3,
   "min_cost": {
     "base": 0,
     "per_level_above_first": 0
@@ -13,7 +13,7 @@
   },
   "anvil_cost": 8,
   "slots": [
-    "legs"
+    "feet"
   ],
   "effects": {
     "minecraft:attributes": [
@@ -21,9 +21,9 @@
         "id": "94374137",
         "attribute": "step_height",
         "amount": {
-          "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0
+          "type": "linear",
+          "base": 0.4,
+          "per_level_above_first": 0.3
         },
         "operation": "add_value"
       }

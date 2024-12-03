@@ -1,0 +1,48 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 4,
+        "animation": "eat",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:saturation",
+                "amplifier": 0,
+                "duration": 24000,
+                "ambient": true,
+                "show_particles": true,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "translate": "item.enchantments.legendary_bread",
+      "color": "gold",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 20,
+        "can_always_eat": true
+      },
+      "custom_model_data": 1,
+      "minecraft:max_stack_size": 1
+    }
+  }
+]

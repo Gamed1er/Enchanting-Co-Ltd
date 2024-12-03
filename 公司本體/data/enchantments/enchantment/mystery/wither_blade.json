@@ -1,0 +1,65 @@
+{
+  "description": [
+    {
+      "text": "⚝ "
+    },
+    {
+      "translate": "enchantment.enchantments.wither_blade"
+    }
+  ],
+  "supported_items": "#enchantable/weapon",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "type": "minecraft:wither_skeleton"
+            }
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:wither",
+          "min_duration": 20,
+          "max_duration": 20,
+          "min_amplifier": 2,
+          "max_amplifier": 2
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        },
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:wither",
+          "min_duration": 5,
+          "max_duration": 5,
+          "min_amplifier": 2,
+          "max_amplifier": 2
+        }
+      }
+    ]
+  }
+}
