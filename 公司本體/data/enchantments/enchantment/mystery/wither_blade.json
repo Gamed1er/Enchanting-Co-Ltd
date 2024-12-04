@@ -38,10 +38,10 @@
         "effect": {
           "type": "minecraft:apply_mob_effect",
           "to_apply": "minecraft:wither",
-          "min_duration": 20,
-          "max_duration": 20,
-          "min_amplifier": 2,
-          "max_amplifier": 2
+          "min_duration": 5,
+          "max_duration": 5,
+          "min_amplifier": 1,
+          "max_amplifier": 1
         }
       },
       {
@@ -56,8 +56,30 @@
           "to_apply": "minecraft:wither",
           "min_duration": 5,
           "max_duration": 5,
-          "min_amplifier": 2,
-          "max_amplifier": 2
+          "min_amplifier": 1,
+          "max_amplifier": 1
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:wither": {
+                "amplifier": {
+                  "min": 0,
+                  "max": 99
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 3
         }
       }
     ]

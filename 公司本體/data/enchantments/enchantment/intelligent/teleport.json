@@ -1,6 +1,7 @@
 {
   "description": [{"text":"☯ "},{"translate": "enchantment.enchantments.teleport"}],
   "supported_items": "#swords",
+  "exclusive_set" : "enchantments:intelligent/food_beggar",
   "weight": 1,
   "max_level": 3,
   "min_cost": {
