@@ -1,8 +1,0 @@
-summon husk ^ ^ ^ {Glowing:1b,CustomNameVisible:1b,Health:250f,Tags:["boss","bread_master", "boss_unset"],CustomName:'{"bold":true,"color":"#FFB508","translate":"entity.boss.bread_master"}',HandItems:[{id:"minecraft:bread",count:1,components:{"minecraft:custom_model_data":1,"minecraft:enchantments":{levels:{"enchantments:mystery/legendary_bread":1}}}},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":16755200}},{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":16755200}},{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":16755200}},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{name:"BedHeadBread"}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],attributes:[{id:"minecraft:armor",base:5},{id:"minecraft:armor_toughness",base:12},{id:"attack_damage",base:4},{id:"attack_knockback",base:1},{id:"follow_range",base:100},{id:"max_health",base:250},{id:"minecraft:movement_speed",base:0.22},{id:"knockback_resistance", base:2},{id:"scale",base:1.2},{id:"attack_knockback",base:0.5}],DeathLootTable:"boss:bread_master"}
-
-scoreboard players set @e[tag = boss_unset] BossSkillCoolDown1 600
-scoreboard players set @e[tag = boss_unset] BossSkillCoolDown2 180
-
-tag @e[tag = boss_unset] remove boss_unset
-
-tellraw @a[distance = ..32] ["",{"translate":"say.bread_master.0","color":"gold"},{"translate":"say.bread_master.spawn.1","bold":true,"color":"gray"},{"translate":"book.bread_master.5","bold":true,"color":"red"},{"translate":"say.bread_master.spawn.2","bold":true,"color":"gray"}]

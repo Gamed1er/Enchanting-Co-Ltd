@@ -1,1 +1,2 @@
 execute as @e[tag = bread_master] at @s if entity @a[distance = ..128] run function boss:bread_master/tick
+execute as @e[tag = husk_double_sword] at @s if entity @a[distance = ..128] run function boss:husk_double_sword/tick

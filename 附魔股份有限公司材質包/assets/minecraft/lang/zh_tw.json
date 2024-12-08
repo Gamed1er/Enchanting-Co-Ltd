@@ -24,6 +24,7 @@
     "enchantment.enchantments.the_nether_radier":"地獄之刃",
     "enchantment.enchantments.overworld_radier":"主世界之刃",
     "enchantment.enchantments.the_end_radier":"終界之刃",
+    "enchantment.enchantments.hunger_radier":"飢餓之刃",
     "enchantment.enchantments.light":"重力降低",
     "advancements.achieve.consume_20_bread.title":"和平、土地、麵包！ Ⅰ",
     "advancements.achieve.consume_20_bread.description":"食用20個麵包\n",
@@ -71,6 +72,8 @@
     "say.trigger.chooser":"取消挑戰Boss",
     "name.bread_master.apprentice":"麵包大俠徒弟",
     "item.enchantments.legendary_bread":"法國長棍麵包",
+    "item.super_hungry_potion":"超級飢餓藥水 0423",
+    "potion.potency.24":"XXV",
     "say.load.1":"附魔股份有限公司",
     "say.load.2":"載入完畢",
     "say.load.3":"歡迎",
@@ -155,6 +158,7 @@
     "story.worker.2.map_making3.4":"【劍魔滅世 - 最中二的魂系刀劍冒險之旅】",
     "story.worker.2.map_making3.5_0":"( 任務結束！獲得 ","story.worker.2.map_making3.5_1":"125 青金石","story.worker.2.map_making3.5_2":" 和 ","story.worker.2.map_making3.5_3":"經驗戰士 II","story.worker.2.map_making3.5_4":" )",
 
-    "story.worker.2.murmur":"好戲開場 ~"
+    "story.worker.2.murmur":"好戲開場 ~",
 
+    "mob.elite.husk_double_sword" : "孤沙雙劍"
 }

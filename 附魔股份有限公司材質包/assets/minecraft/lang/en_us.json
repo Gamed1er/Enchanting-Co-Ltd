@@ -21,6 +21,7 @@
     "enchantment.enchantments.night_radier":"Night Radier",
     "enchantment.enchantments.rainy_radier":"Rainy Radier",
     "enchantment.enchantments.sunny_radier":"Sunny Radier",
+    "enchantment.enchantments.hunger_radier":"Starving Edge",
     "enchantment.enchantments.teleport":"Teleport",
     "enchantment.enchantments.antidote":"Antidote",
     "enchantment.enchantments.gold_bell":"Invulnerable",
@@ -88,6 +89,8 @@
     "say.trigger.chooser":"Cancel Challenge Boss",
     "name.bread_master.apprentice":"Bread Warrior's apprentice",
     "item.enchantments.legendary_bread":"Baguette",
+    "item.super_hungry_potion":"Super Hunger Potion 0423",
+    "potion.potency.24":"XXV",
     "say.load.1":"Enchanting Co. Ltd",
     "say.load.2":"loading completed",
     "say.load.3":"welcome",
@@ -182,6 +185,7 @@
     "story.worker.2.map_making3.5_3": "Experience Fighter II", 
     "story.worker.2.map_making3.5_4": ".)",
 
-    "story.worker.2.murmur": "Let the show begin ~"
+    "story.worker.2.murmur": "Let the show begin ~",
     
+    "mob.elite.husk_double_sword" : "Duel Wraith"
 }

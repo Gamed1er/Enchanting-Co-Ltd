@@ -1,0 +1,221 @@
+{
+  "description": [
+    {
+      "text": "⚔ "
+    },
+    {
+      "translate": "enchantment.enchantments.hunger_radier"
+    }
+  ],
+  "exclusive_set": [],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 5,
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 18
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 16
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 14
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 12
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 10
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 8
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 6
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 4
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 2
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "EnchantmentsHunger": {
+              "max": 0
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      }
+    ]
+  }
+}

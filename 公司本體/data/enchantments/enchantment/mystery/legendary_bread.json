@@ -1,5 +1,12 @@
 {
-  "description": [{"text":"⚝ "},{"translate": "enchantment.enchantments.legendary_bread"}],
+  "description": [
+    {
+      "text": "⚝ "
+    },
+    {
+      "translate": "enchantment.enchantments.legendary_bread"
+    }
+  ],
   "supported_items": "minecraft:bread",
   "weight": 1,
   "max_level": 1,
@@ -71,6 +78,28 @@
             "scale": 1
           },
           "range": 100
+        }
+      }
+    ],
+    "minecraft:armor_effectiveness": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "effects": {
+              "minecraft:hunger": {
+                "amplifier": {
+                  "min": 0,
+                  "max": 255
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": -0.5
         }
       }
     ]
